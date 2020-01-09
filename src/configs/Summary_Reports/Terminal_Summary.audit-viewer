@@ -1,0 +1,1 @@
+<tab_configuration><tab tab_name="Terminal Summary" type="count_report"><filters><filter field="terminal" op="!=" type="field" value="" /></filters><row_statistic field="terminal" type="simple_field" /></tab></tab_configuration>

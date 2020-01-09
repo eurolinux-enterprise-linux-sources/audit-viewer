@@ -1,0 +1,847 @@
+# translation of ja.po to Japanese
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Kiyoto Hashida <khashida@redhat.com>, 2009.
+# Hyu_gabaru Ryu_ichi <hyu_gabaru@yahoo.co.jp>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: ja\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-07 15:23+0200\n"
+"PO-Revision-Date: 2009-09-08 17:00+0900\n"
+"Last-Translator: Hyu_gabaru Ryu_ichi <hyu_gabaru@yahoo.co.jp>\n"
+"Language-Team: Japanese <jp@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../src/audit-viewer.glade.h:1
+msgid "."
+msgstr "."
+
+#. A "decimal point" separating seconds and milliseconds.
+#: ../src/audit-viewer.glade.h:3
+msgid ":"
+msgstr ":"
+
+#: ../src/audit-viewer.glade.h:4
+msgid "<b>Event Order</b>"
+msgstr "<b>イベントの順番</b>"
+
+#: ../src/audit-viewer.glade.h:5
+msgid "<b>Group Columns _by:</b>"
+msgstr "<b>グループカラム(_B):</b>"
+
+#: ../src/audit-viewer.glade.h:6
+msgid "<b>Group Rows by:</b>"
+msgstr "<b>グループ行:</b>"
+
+#: ../src/audit-viewer.glade.h:7
+msgid "<b>Identification</b>"
+msgstr "<b>識別</b>"
+
+#: ../src/audit-viewer.glade.h:8
+msgid "<b>Limit to events _before:</b>"
+msgstr "<b>事象を～より前に限定する(_B):</b>"
+
+#: ../src/audit-viewer.glade.h:9
+msgid "<b>Limit to events not _earlier than:</b>"
+msgstr "<b>事象を～以降のものに限定する(_E):</b>"
+
+#: ../src/audit-viewer.glade.h:10
+msgid "<b>Records</b>"
+msgstr "<b>記録</b>"
+
+#: ../src/audit-viewer.glade.h:11
+msgid "<b>Tab</b>"
+msgstr "<b>タブ</b>"
+
+#: ../src/audit-viewer.glade.h:12
+msgid "<b>_File</b>"
+msgstr "<b>ファイル(_F)</b>"
+
+#: ../src/audit-viewer.glade.h:13
+msgid "<b>_System audit log</b>"
+msgstr "<b>システム監査ログ(_S)</b>"
+
+#: ../src/audit-viewer.glade.h:14
+msgid "Audit Event Source"
+msgstr "監査事象源"
+
+#: ../src/audit-viewer.glade.h:15 ../../po/../src/main_window.py:506
+msgid "Audit Viewer"
+msgstr "監査ビュアー"
+
+#: ../src/audit-viewer.glade.h:16
+msgid "Automatic file type e_xtension"
+msgstr "自動ファイルタイプ拡張(_X)"
+
+#: ../src/audit-viewer.glade.h:17
+msgid "Change _event source..."
+msgstr "事象源を閉じる...(_E)"
+
+#: ../src/audit-viewer.glade.h:18
+msgid "Columns"
+msgstr "カラム"
+
+#: ../src/audit-viewer.glade.h:19
+msgid "Current Co_lumn"
+msgstr "現在のカラム(_L)"
+
+#: ../src/audit-viewer.glade.h:20
+msgid "Current _Cell"
+msgstr "現在のセル(_C)"
+
+#: ../src/audit-viewer.glade.h:21
+msgid "Current _Row"
+msgstr "現在の行(_R)"
+
+#: ../src/audit-viewer.glade.h:22
+msgid "Date Filter"
+msgstr "日付フィルター"
+
+#: ../src/audit-viewer.glade.h:23
+msgid "Event Details"
+msgstr "事象の詳細"
+
+#: ../src/audit-viewer.glade.h:24
+msgid "Expression"
+msgstr "表現"
+
+#: ../src/audit-viewer.glade.h:25
+msgid "F_ield:"
+msgstr "領域(_I)"
+
+#: ../src/audit-viewer.glade.h:26
+msgid "File _type:"
+msgstr "ファイルタイプ(_T)"
+
+#: ../src/audit-viewer.glade.h:27
+msgid "Filter"
+msgstr "フィルター"
+
+#: ../src/audit-viewer.glade.h:28
+msgid "Filter:"
+msgstr "フィルター:"
+
+#: ../src/audit-viewer.glade.h:29
+msgid "General"
+msgstr "一般"
+
+#: ../src/audit-viewer.glade.h:30
+msgid "Group _values by:"
+msgstr "～によるグループ値(_V):"
+
+#: ../src/audit-viewer.glade.h:31
+msgid "Grouping"
+msgstr "グループ化"
+
+#: ../src/audit-viewer.glade.h:32
+msgid "LIST/REPORT"
+msgstr "一覧/レポート"
+
+#: ../src/audit-viewer.glade.h:33
+msgid "New _List"
+msgstr "新一覧(_L)"
+
+#: ../src/audit-viewer.glade.h:34
+msgid "New _Report on this View..."
+msgstr "このビューの新レポート...(_R)"
+
+#: ../src/audit-viewer.glade.h:35
+msgid "New _Report..."
+msgstr "新レポート...(_R)"
+
+#: ../src/audit-viewer.glade.h:36
+msgid "Order:"
+msgstr "順序:"
+
+#: ../src/audit-viewer.glade.h:37
+msgid "Re_fresh"
+msgstr "更新(_F)"
+
+#: ../src/audit-viewer.glade.h:38
+msgid "Serial number:"
+msgstr "通番"
+
+#: ../src/audit-viewer.glade.h:39
+msgid "Sort by:"
+msgstr "～による並べ替え:"
+
+#: ../src/audit-viewer.glade.h:40
+msgid ""
+"The chart has too many data points.  Please restrict your data filter or use "
+"coarser data grouping criteria."
+msgstr ""
+"グラフにはデータの点が多すぎます。データフィルターを制限するか、データのグ"
+"ループ化基準の coarser を使ってください。"
+
+#: ../src/audit-viewer.glade.h:41
+msgid "Time:"
+msgstr "時刻:"
+
+#: ../src/audit-viewer.glade.h:42
+msgid ""
+"You can add aditional conditions using the <tt>ausearch</tt> expression "
+"language.  Run <tt>(man ausearch-expression)</tt> to read the documentation "
+"of the language."
+msgstr ""
+"<tt>ausearch</tt>数式言語を使って追加条件を追加できます。この言語のドキュメン"
+"トを読むには<tt>(man auserch-expression)</tt>を実行してください。"
+
+#: ../src/audit-viewer.glade.h:43
+msgid "_Ascending"
+msgstr "昇順"
+
+#: ../src/audit-viewer.glade.h:44
+msgid "_Browse..."
+msgstr "ブラウズ..."
+
+#: ../src/audit-viewer.glade.h:45
+msgid "_Close"
+msgstr "閉じる"
+
+#: ../src/audit-viewer.glade.h:46
+msgid "_Descending"
+msgstr "降順"
+
+#: ../src/audit-viewer.glade.h:47
+msgid "_Event Details"
+msgstr "事象の詳細"
+
+#: ../src/audit-viewer.glade.h:48
+msgid "_Event Time"
+msgstr "事象の時刻"
+
+#: ../src/audit-viewer.glade.h:49
+msgid "_Export..."
+msgstr "エクスポート"
+
+#: ../src/audit-viewer.glade.h:50
+msgid "_Expression:"
+msgstr "表現:"
+
+#: ../src/audit-viewer.glade.h:51
+msgid "_Field:"
+msgstr "領域:"
+
+#: ../src/audit-viewer.glade.h:52
+msgid "_Group values by:"
+msgstr "～によるグループ値:"
+
+#: ../src/audit-viewer.glade.h:53
+msgid "_Help"
+msgstr "ヘルプ"
+
+#: ../src/audit-viewer.glade.h:54
+msgid "_Include rotated files"
+msgstr "交代ファイルを含む"
+
+#: ../src/audit-viewer.glade.h:55
+msgid "_List Events for"
+msgstr "～に関する事象の一覧"
+
+#: ../src/audit-viewer.glade.h:56
+msgid "_Log file:"
+msgstr "ログファイル:"
+
+#: ../src/audit-viewer.glade.h:57
+msgid "_Name:"
+msgstr "名前:"
+
+#: ../src/audit-viewer.glade.h:58
+msgid "_Next Event"
+msgstr "次の事象"
+
+#: ../src/audit-viewer.glade.h:59
+msgid "_Open in new window"
+msgstr "新しいウィンドウで開く"
+
+#: ../src/audit-viewer.glade.h:60
+msgid "_Path:"
+msgstr "パス:"
+
+#: ../src/audit-viewer.glade.h:61
+msgid "_Previous Event"
+msgstr "前の事象"
+
+#: ../src/audit-viewer.glade.h:62
+msgid "_Save Configuration as..."
+msgstr "設定を保存..."
+
+#: ../src/audit-viewer.glade.h:63
+msgid "_Save layout as..."
+msgstr "レイアウトを保存..."
+
+#: ../src/audit-viewer.glade.h:64
+msgid "_Show as a chart"
+msgstr "グラフとして表示"
+
+#: ../src/audit-viewer.glade.h:65
+msgid "_View"
+msgstr "見る"
+
+#: ../src/audit-viewer.glade.h:66
+msgid "_Window"
+msgstr "ウィンドウ"
+
+#: ../src/audit-viewer.glade.h:67
+msgid "gtk-about"
+msgstr "gtkについて"
+
+#: ../src/audit-viewer.glade.h:68
+msgid "gtk-apply"
+msgstr "gtk-適用"
+
+#: ../src/audit-viewer.glade.h:69
+msgid "gtk-close"
+msgstr "gtk-閉じる"
+
+#: ../src/audit-viewer.glade.h:70
+msgid "gtk-open"
+msgstr "gtk-開く"
+
+#: ../src/audit-viewer.glade.h:71
+msgid "gtk-properties"
+msgstr "gtk-プロパティー"
+
+#: ../src/audit-viewer.glade.h:72
+msgid "gtk-quit"
+msgstr "gtk-終了"
+
+#: ../../po/../src/client.py:113
+msgid "Not enough data available"
+msgstr "十分なデータがありません"
+
+#: ../../po/../src/event_dialog.py:48
+msgid "Field"
+msgstr "領域"
+
+#: ../../po/../src/event_dialog.py:51
+msgid "Value"
+msgstr "値"
+
+#: ../../po/../src/event_dialog.py:58
+msgid "Record Type"
+msgstr "レコードタイプ"
+
+#: ../../po/../src/filters.py:204
+#, python-format
+msgid "date %s %s.%03d"
+msgstr "日付 %s %s.%03d"
+
+#: ../../po/../src/filters.py:205 ../../po/../src/statistic.py:303
+msgid "%x %H:%M:%S"
+msgstr "%x %H:%M:%S"
+
+#: ../../po/../src/filters.py:257
+#, python-format
+msgid "date %s now"
+msgstr "日付 %s 今"
+
+#: ../../po/../src/filters.py:284
+#, python-format
+msgid "date %s %d minute ago"
+msgid_plural "date %s %d minutes ago"
+msgstr[0] "日付 %s %d 分前"
+
+#: ../../po/../src/filters.py:316
+#, python-format
+msgid "date %s today 00:00"
+msgstr "日付 %s 今日 00:00"
+
+#: ../../po/../src/filters.py:333
+#, python-format
+msgid "date %s yesterday 00:00"
+msgstr "日付 %s 昨日 00:00"
+
+#: ../../po/../src/filters.py:350
+#, python-format
+msgid "date %s start of this week"
+msgstr "日付 %s 今週の開始日"
+
+#: ../../po/../src/filters.py:367
+#, python-format
+msgid "date %s start of this month"
+msgstr "日付 %s 今月の開始日"
+
+#: ../../po/../src/filters.py:384
+#, python-format
+msgid "date %s start of this year"
+msgstr "日付 %s 今年の開始日"
+
+#: ../../po/../src/list_properties.py:42
+msgid "Event date"
+msgstr "事象の日付"
+
+#: ../../po/../src/list_properties.py:43
+msgid "Other fields"
+msgstr "他の領域"
+
+#: ../../po/../src/list_properties.py:53
+msgid "Column"
+msgstr "カラム"
+
+#: ../../po/../src/list_properties.py:133
+msgid "Field name must not be empty"
+msgstr "領域名は空白ではいけません"
+
+#: ../../po/../src/list_tab.py:127
+msgid "_List"
+msgstr "一覧"
+
+#: ../../po/../src/list_tab.py:145
+#, python-format
+msgid "List %d"
+msgstr "一覧 %d"
+
+#: ../../po/../src/list_tab.py:173 ../../po/../src/report_tab.py:90
+msgid "HTML"
+msgstr "HTML"
+
+#: ../../po/../src/list_tab.py:173 ../../po/../src/report_tab.py:90
+msgid "CSV"
+msgstr "CSV"
+
+#: ../../po/../src/list_tab.py:174
+msgid "Raw log data"
+msgstr "生のログデータ"
+
+#: ../../po/../src/list_tab.py:175 ../../po/../src/report_tab.py:91
+msgid "Export..."
+msgstr "エクスポート..."
+
+#: ../../po/../src/list_tab.py:190 ../../po/../src/main_window.py:436
+#: ../../po/../src/main_window.py:476 ../../po/../src/report_tab.py:104
+#, python-format
+msgid "Error writing to %s: %s"
+msgstr "%s への書込みでエラー: %s"
+
+#: ../../po/../src/list_tab.py:200
+msgid ", "
+msgstr "、"
+
+#: ../../po/../src/list_tab.py:202
+msgid "None"
+msgstr "なし"
+
+#: ../../po/../src/list_tab.py:284
+msgid "Other Fields"
+msgstr "他の領域"
+
+#: ../../po/../src/list_tab.py:286
+msgid "Date"
+msgstr "日付"
+
+#: ../../po/../src/main.py:41
+msgid "%prog [OPTION]... [FILE]..."
+msgstr "%prog [オプション]... [ファイル]..."
+
+#: ../../po/../src/main.py:44
+msgid "Start an audit event viewer."
+msgstr "監査事象ビュアーを開始"
+
+#: ../../po/../src/main.py:48
+msgid ""
+"do not attempt to start the privileged backend for reading system audit logs"
+msgstr ""
+"システムの監査ログを読むために特権バックエンドを起動しようしないでください。"
+
+#: ../../po/../src/main.py:64
+#, python-format
+msgid "Error running audit-viewer-server: %s"
+msgstr "audit-viewer-server 実行中にエラー: %s"
+
+#: ../../po/../src/main_window.py:72
+msgid "Audit viewer layout"
+msgstr "監査ビュアーレイアウト"
+
+#: ../../po/../src/main_window.py:222
+#, python-format
+msgid "A file named \"%s\" already exists.  Do you want to replace it?"
+msgstr "\"%s\" という名前のファイルが既にあります。置き換えますか?"
+
+#: ../../po/../src/main_window.py:226
+#, python-format
+msgid ""
+"The file already exists in \"%s\".  Replacing it will overwrite its contents."
+msgstr "そのファイルは既に \"%s\" にあります。置き換えると上書きします。"
+
+#: ../../po/../src/main_window.py:232
+msgid "_Replace"
+msgstr "置換"
+
+#: ../../po/../src/main_window.py:270
+#, python-format
+msgid "Error reading audit events: %s"
+msgstr "監査事象を読み込んでいてエラー: %s"
+
+#: ../../po/../src/main_window.py:293
+msgid "All files"
+msgstr "全ファイル"
+
+#: ../../po/../src/main_window.py:331
+msgid "Unexpected top element contents"
+msgstr "予期しない先頭要素の内容"
+
+#: ../../po/../src/main_window.py:334
+#, python-format
+msgid "Unsupported file version %s"
+msgstr "サポートしていないファイルバージョン %s"
+
+#: ../../po/../src/main_window.py:351
+msgid "Unexpected top element"
+msgstr "予期しない先頭要素"
+
+#: ../../po/../src/main_window.py:359
+#, python-format
+msgid "Error reading %s: %s"
+msgstr "%s の読込みでエラー: %s"
+
+#: ../../po/../src/main_window.py:364
+#, python-format
+msgid "Invalid contents of %s: %s"
+msgstr "%s の不当な内容: %s"
+
+#: ../../po/../src/main_window.py:405
+msgid "Open..."
+msgstr "開く..."
+
+#: ../../po/../src/main_window.py:419
+msgid "Save Layout As..."
+msgstr "～へレイアウトを保存する..."
+
+#: ../../po/../src/main_window.py:460
+msgid "Save Configuration As..."
+msgstr "～へ設定を保存する..."
+
+#: ../../po/../src/main_window.py:523
+msgid "translator-credits"
+msgstr "日向原 龍一 <hyu_gabaru@yahoo.co.jp>, 2009."
+
+#. This file is not installed; it is used only to make sure the strings
+#. used by Python's optparse module are translated.
+#: ../../po/../src/optparse_strings.py:3
+#, python-format
+msgid "no such option: %s"
+msgstr "そのようなオプションはありません: %s"
+
+#: ../../po/../src/optparse_strings.py:4
+#, python-format
+msgid "ambiguous option: %s (%s?)"
+msgstr "曖昧なオプション: %s (%s?)"
+
+#: ../../po/../src/optparse_strings.py:5
+#, python-format
+msgid "Usage: %s\n"
+msgstr "利用法: %s\n"
+
+#: ../../po/../src/optparse_strings.py:6
+msgid "Usage"
+msgstr "利用法"
+
+#: ../../po/../src/optparse_strings.py:7
+msgid "integer"
+msgstr "整数"
+
+#: ../../po/../src/optparse_strings.py:8
+msgid "long integer"
+msgstr "長い整数"
+
+#: ../../po/../src/optparse_strings.py:9
+msgid "floating-point"
+msgstr "浮動小数点"
+
+#: ../../po/../src/optparse_strings.py:10
+msgid "complex"
+msgstr "複素数"
+
+#: ../../po/../src/optparse_strings.py:11
+#, python-format
+msgid "option %s: invalid %s value: %r"
+msgstr "オプション %s: 不当な %s 値: %r"
+
+#: ../../po/../src/optparse_strings.py:12
+#, python-format
+msgid "option %s: invalid choice: %r (choose from %s)"
+msgstr "オプション %s: 不当な選択: %r (%s から選んでください)"
+
+#: ../../po/../src/optparse_strings.py:13
+msgid "show this help message and exit"
+msgstr "このヘルプメッセージを表示して終わる"
+
+#: ../../po/../src/optparse_strings.py:14
+msgid "show program's version number and exit"
+msgstr "プログラムのバージョン番号を表示して終わる"
+
+#: ../../po/../src/optparse_strings.py:15
+msgid "%prog [options]"
+msgstr "%prog [オプション]"
+
+#: ../../po/../src/optparse_strings.py:16
+#: ../../po/../src/optparse_strings.py:19
+#, python-format
+msgid "%s option requires an argument"
+msgstr "%s オプションには 1 個のパラメーターが必要です"
+
+#: ../../po/../src/optparse_strings.py:17
+#: ../../po/../src/optparse_strings.py:20
+#, python-format
+msgid "%s option requires %d arguments"
+msgstr "%s オプションには %d 個のオプションが必要です"
+
+#: ../../po/../src/optparse_strings.py:18
+#, python-format
+msgid "%s option does not take a value"
+msgstr "%s オプションには値は不要です"
+
+#: ../../po/../src/optparse_strings.py:21
+msgid "Options"
+msgstr "オプション"
+
+#: ../../po/../src/report_tab.py:56
+msgid "_Report"
+msgstr "レポート"
+
+#: ../../po/../src/report_tab.py:73
+#, python-format
+msgid "Report %d"
+msgstr "レポート %d"
+
+#: ../../po/../src/report_tab.py:123 ../../po/../src/report_tab.py:154
+msgid "Listing events for this column is not supported."
+msgstr "このカラムに事象を表示することはサポートしていません。"
+
+#: ../../po/../src/report_tab.py:126
+msgid "Listing events for this cell is not supported."
+msgstr "このセルに事象を表示することはサポートしていません。"
+
+#: ../../po/../src/report_tab.py:131 ../../po/../src/report_tab.py:142
+msgid "Listing events for this row is not supported."
+msgstr "この行に事象を表示することはサポートしていません。"
+
+#: ../../po/../src/report_tab.py:236 ../../po/../src/report_tab.py:276
+#: ../../po/../src/report_tab.py:480
+msgid "Count"
+msgstr "合計"
+
+#: ../../po/../src/search_entry.py:72
+msgid "Search..."
+msgstr "検索..."
+
+#: ../../po/../src/server.c:128
+msgid ""
+"This program is only for use by audit-viewer and it should not be run "
+"manually.\n"
+msgstr ""
+"このプログラムは audit-viewer からのみ使われるもので、手操作で起動されるべき"
+"ものではありません。\n"
+
+#: ../../po/../src/server.c:141
+#, c-format
+msgid ""
+"\n"
+"Report bugs to %s.\n"
+msgstr ""
+"\n"
+"%s へバグを報告。\n"
+
+#: ../../po/../src/server.c:148
+msgid ""
+"Copyright (C) 2008 Red Hat, Inc.  All rights reserved.\n"
+"This software is distributed under the GPL v.2.\n"
+"\n"
+"This program is provided with NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"Copyright (C) 2008 Red Hat, Inc.  All rights reserved.\n"
+"This software is distributed under the GPL v.2.\n"
+"\n"
+"This program is provided with NO WARRANTY, to the extent permitted by law."
+
+#: ../../po/../src/server.c:294
+msgid "The control file is not a socket"
+msgstr "制御ファイルがソケットではない"
+
+#: ../../po/../src/server.c:309
+#, c-format
+msgid "Unknown server request %<PRIu32>"
+msgstr "不明なサーバー要求 %<PRIu32>"
+
+#: ../../po/../src/source_dialog.py:62
+msgid "Audit Log File"
+msgstr "監査ログファイル"
+
+#: ../../po/../src/source_dialog.py:137
+msgid "No system log file available"
+msgstr "システムログファイルがありません"
+
+#: ../../po/../src/source_dialog.py:146
+#, python-format
+msgid "Error opening %s: %s"
+msgstr "%s を開こうとしてエラー: %s"
+
+#: ../../po/../src/statistic.py:166
+msgid "Unspecified"
+msgstr "指定されていない"
+
+#: ../../po/../src/statistic.py:341
+#, python-format
+msgid "%x %X"
+msgstr "%x %X"
+
+#: ../../po/../src/statistic.py:355
+msgid "%x %H:%M"
+msgstr "%x %H:%M"
+
+#: ../../po/../src/statistic.py:365
+msgid "%x %H"
+msgstr "%x %H"
+
+#: ../../po/../src/statistic.py:389
+msgid "hour"
+msgstr "時間"
+
+#: ../../po/../src/statistic.py:392
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d 時間"
+
+#: ../../po/../src/statistic.py:394
+msgid "minute"
+msgstr "分"
+
+#: ../../po/../src/statistic.py:397
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d 分"
+
+#: ../../po/../src/statistic.py:399
+msgid "second"
+msgstr "秒"
+
+#: ../../po/../src/statistic.py:401
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d 秒"
+
+#: ../../po/../src/statistic.py:456
+msgid "day"
+msgstr "日"
+
+#: ../../po/../src/statistic.py:476
+msgid "week"
+msgstr "週"
+
+#: ../../po/../src/statistic.py:504
+msgid "%b %Y"
+msgstr "%b %Y"
+
+#: ../../po/../src/statistic.py:521
+msgid "month"
+msgstr "月"
+
+#: ../../po/../src/tab_properties.py:130
+msgid "Specific time"
+msgstr "特定の時刻"
+
+#: ../../po/../src/tab_properties.py:132
+msgid "Now"
+msgstr "今"
+
+#: ../../po/../src/tab_properties.py:133
+msgid "10 minutes ago"
+msgstr "10分前"
+
+#: ../../po/../src/tab_properties.py:136
+msgid "Today"
+msgstr "今日"
+
+#: ../../po/../src/tab_properties.py:137
+msgid "Yesterday"
+msgstr "昨日"
+
+#: ../../po/../src/tab_properties.py:138
+msgid "This week"
+msgstr "今週"
+
+#: ../../po/../src/tab_properties.py:139
+msgid "This month"
+msgstr "今月"
+
+#: ../../po/../src/tab_properties.py:141
+msgid "This year"
+msgstr "今年"
+
+#: ../../po/../src/tab_properties.py:184
+#, python-format
+msgid "Unsupported date filter \"%s\""
+msgstr "サポートしていない日付フィルター \"%s\""
+
+#: ../../po/../src/tab_properties.py:248
+msgid "Rule"
+msgstr "規則"
+
+#: ../../po/../src/tab_properties.py:319
+#, python-format
+msgid "Unsupported timestamp operator in \"%s\""
+msgstr "\"%s\"のサポートしていないタイムスタンプ演算子"
+
+#: ../../po/../src/tab_properties.py:382
+msgid "Editing of some filters is not supported"
+msgstr "いくつかのフィルターを編集することはサポートしていません"
+
+#: ../../po/../src/tab_properties.py:384
+#, python-format
+msgid ""
+"If you edit properties of this tab, these filters will be dropped from the "
+"tab's configuration:\n"
+"%s\n"
+"Do you still want to edit properties of this tab?"
+msgstr ""
+"このタブのプロパティーを編集したら、タブの設定からこれらのフィルターは外れま"
+"す。\n"
+"%s\n"
+"それでもこのタブのプロパティーを編集しますか?"
+
+#: ../../po/../src/tab_properties.py:400
+msgid "Tab name must not be empty"
+msgstr "タブの名前は空白ではなりません"
+
+#. self._validate_get_failure() doesn't allow empty tab name
+#: ../../po/../src/tab_properties.py:425
+#, python-format
+msgid "%s Properties"
+msgstr "%s プロパティー"
+
+#: ../../po/../src/util.py:245
+#, python-format
+msgid "Invalid <%s %s> value %s"
+msgstr "不当な <%s %s> 値 %s"
+
+#: ../../po/../src/util.py:250
+#, python-format
+msgid "Unknown <%s %s> value %s"
+msgstr "不明な <%s %s> 値 %s"
+
+#: ../../po/../src/util.py:257
+#, python-format
+msgid "Attribute %s missing in <%s>"
+msgstr "属性 %s が<%s>で不足しています"
+
+#: ../audit-viewer.desktop.in.h:1
+msgid "Audit Logs"
+msgstr "監査ログ"
+
+#: ../audit-viewer.desktop.in.h:2
+msgid "View audit logs"
+msgstr "監査ログを見る"
+
+#: ../audit-viewer.xml.in.h:1
+msgid "Audit viewer configuration"
+msgstr "監査ビュアー設定"

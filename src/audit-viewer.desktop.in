@@ -1,0 +1,9 @@
+[Desktop Entry]
+_Name=Audit Logs
+_Comment=View audit logs
+Exec=audit-viewer %F
+Terminal=false
+Type=Application
+Icon=logviewer
+Categories=Settings;System;
+MimeType=application/x-redhat-audit-viewer;

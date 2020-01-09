@@ -1,0 +1,2 @@
+#! @SHELL@
+exec @PYTHON@ -O @pkgdatadir@/main.py "$@"

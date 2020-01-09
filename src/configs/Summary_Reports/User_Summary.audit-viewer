@@ -1,0 +1,1 @@
+<tab_configuration><tab tab_name="User Summary" type="count_report"><filters><filter field="auid" op="!=" type="field" value="" /></filters><row_statistic field="auid" type="simple_field" /></tab></tab_configuration>

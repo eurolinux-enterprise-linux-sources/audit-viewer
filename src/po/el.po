@@ -1,0 +1,959 @@
+# translation of el.po to Greek Fedora team
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# Dimitris Glezos <dimitris@glezos.com>, 2008.
+msgid ""
+msgstr ""
+"Project-Id-Version: el\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-07 15:23+0200\n"
+"PO-Revision-Date: 2008-04-19 02:20+0300\n"
+"Last-Translator: Dimitris Glezos <dimitris@glezos.com>\n"
+"Language-Team: Greek Fedora team <fedora-trans-el@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../src/audit-viewer.glade.h:1
+#, fuzzy
+msgid "."
+msgstr "."
+
+#. A "decimal point" separating seconds and milliseconds.
+#: ../src/audit-viewer.glade.h:3
+#, fuzzy
+msgid ":"
+msgstr ":"
+
+#: ../src/audit-viewer.glade.h:4
+#, fuzzy
+msgid "<b>Event Order</b>"
+msgstr "<b> Συμβάν Διάταξη</b>"
+
+#: ../src/audit-viewer.glade.h:5
+#, fuzzy
+msgid "<b>Group Columns _by:</b>"
+msgstr "<_b> Στήλες από</b>"
+
+#: ../src/audit-viewer.glade.h:6
+#, fuzzy
+msgid "<b>Group Rows by:</b>"
+msgstr "<b> Σειρές από</b>"
+
+#: ../src/audit-viewer.glade.h:7
+#, fuzzy
+msgid "<b>Identification</b>"
+msgstr "<b> Ταυτότητα</b>"
+
+#: ../src/audit-viewer.glade.h:8
+#, fuzzy
+msgid "<b>Limit to events _before:</b>"
+msgstr "<_b> πριν από</b>"
+
+#: ../src/audit-viewer.glade.h:9
+#, fuzzy
+msgid "<b>Limit to events not _earlier than:</b>"
+msgstr "<b> όχι</b>"
+
+#: ../src/audit-viewer.glade.h:10
+msgid "<b>Records</b>"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:11
+msgid "<b>Tab</b>"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:12
+#, fuzzy
+msgid "<b>_File</b>"
+msgstr "<b> Αρχείο</b>"
+
+#: ../src/audit-viewer.glade.h:13
+#, fuzzy
+msgid "<b>_System audit log</b>"
+msgstr "<b> Σύστημα</b>"
+
+#: ../src/audit-viewer.glade.h:14
+#, fuzzy
+msgid "Audit Event Source"
+msgstr "Συμβάν Πηγή"
+
+#: ../src/audit-viewer.glade.h:15 ../../po/../src/main_window.py:506
+#, fuzzy
+msgid "Audit Viewer"
+msgstr "Εφαρμογή προβολής"
+
+#: ../src/audit-viewer.glade.h:16
+#, fuzzy
+msgid "Automatic file type e_xtension"
+msgstr "Αυτόματο αρχείο τύπος επέκταση"
+
+#: ../src/audit-viewer.glade.h:17
+#, fuzzy
+msgid "Change _event source..."
+msgstr "Αλλαγή γεγονός πηγή."
+
+#: ../src/audit-viewer.glade.h:18
+#, fuzzy
+msgid "Columns"
+msgstr "Στήλες"
+
+#: ../src/audit-viewer.glade.h:19
+#, fuzzy
+msgid "Current Co_lumn"
+msgstr "Στήλη"
+
+#: ../src/audit-viewer.glade.h:20
+#, fuzzy
+msgid "Current _Cell"
+msgstr "Κελί"
+
+#: ../src/audit-viewer.glade.h:21
+#, fuzzy
+msgid "Current _Row"
+msgstr "Γραμμή"
+
+#: ../src/audit-viewer.glade.h:22
+#, fuzzy
+msgid "Date Filter"
+msgstr "Ημερομηνία Φίλτρο"
+
+#: ../src/audit-viewer.glade.h:23
+#, fuzzy
+msgid "Event Details"
+msgstr "Συμβάν Λεπτομέρειες"
+
+#: ../src/audit-viewer.glade.h:24
+#, fuzzy
+msgid "Expression"
+msgstr "Έκφραση"
+
+#: ../src/audit-viewer.glade.h:25
+#, fuzzy
+msgid "F_ield:"
+msgstr "Πεδίο:"
+
+#: ../src/audit-viewer.glade.h:26
+#, fuzzy
+msgid "File _type:"
+msgstr "_Τύπος αρχείου:"
+
+#: ../src/audit-viewer.glade.h:27
+#, fuzzy
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: ../src/audit-viewer.glade.h:28
+#, fuzzy
+msgid "Filter:"
+msgstr "Φίλτρο:"
+
+#: ../src/audit-viewer.glade.h:29
+#, fuzzy
+msgid "General"
+msgstr "Γενικά"
+
+#: ../src/audit-viewer.glade.h:30
+#, fuzzy
+msgid "Group _values by:"
+msgstr "από:"
+
+#: ../src/audit-viewer.glade.h:31
+#, fuzzy
+msgid "Grouping"
+msgstr "Ομαδοποίηση"
+
+#: ../src/audit-viewer.glade.h:32
+msgid "LIST/REPORT"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:33
+#, fuzzy
+msgid "New _List"
+msgstr "Νέο Λίστα"
+
+#: ../src/audit-viewer.glade.h:34
+#, fuzzy
+msgid "New _Report on this View..."
+msgstr "Νέο Αναφορά ενεργό Προβολή."
+
+#: ../src/audit-viewer.glade.h:35
+#, fuzzy
+msgid "New _Report..."
+msgstr "Νέο Αναφορά."
+
+#: ../src/audit-viewer.glade.h:36
+#, fuzzy
+msgid "Order:"
+msgstr "Σειρά:"
+
+#: ../src/audit-viewer.glade.h:37
+#, fuzzy
+msgid "Re_fresh"
+msgstr "Ανανέωση"
+
+#: ../src/audit-viewer.glade.h:38
+#, fuzzy
+msgid "Serial number:"
+msgstr "Αριθμός σειράς:"
+
+#: ../src/audit-viewer.glade.h:39
+#, fuzzy
+msgid "Sort by:"
+msgstr "Ταξινόμηση κατά:"
+
+#: ../src/audit-viewer.glade.h:40
+msgid ""
+"The chart has too many data points.  Please restrict your data filter or use "
+"coarser data grouping criteria."
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:41
+#, fuzzy
+msgid "Time:"
+msgstr "Χρόνος:"
+
+#: ../src/audit-viewer.glade.h:42
+#, fuzzy
+msgid ""
+"You can add aditional conditions using the <tt>ausearch</tt> expression "
+"language.  Run <tt>(man ausearch-expression)</tt> to read the documentation "
+"of the language."
+msgstr "αύξηση<tt></tt> Εκτέλεση<tt></tt> τεκμηρίωση από."
+
+#: ../src/audit-viewer.glade.h:43
+#, fuzzy
+msgid "_Ascending"
+msgstr "Αύξουσα"
+
+#: ../src/audit-viewer.glade.h:44
+#, fuzzy
+msgid "_Browse..."
+msgstr "Περιήγηση."
+
+#: ../src/audit-viewer.glade.h:45
+msgid "_Close"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:46
+#, fuzzy
+msgid "_Descending"
+msgstr "Φθίνουσα"
+
+#: ../src/audit-viewer.glade.h:47
+#, fuzzy
+msgid "_Event Details"
+msgstr "Συμβάν Λεπτομέρειες"
+
+#: ../src/audit-viewer.glade.h:48
+#, fuzzy
+msgid "_Event Time"
+msgstr "Συμβάν Ώρα"
+
+#: ../src/audit-viewer.glade.h:49
+#, fuzzy
+msgid "_Export..."
+msgstr "Ε_ξαγωγή..."
+
+#: ../src/audit-viewer.glade.h:50
+#, fuzzy
+msgid "_Expression:"
+msgstr "Έκφραση:"
+
+#: ../src/audit-viewer.glade.h:51
+#, fuzzy
+msgid "_Field:"
+msgstr "_Πεδίο:"
+
+#: ../src/audit-viewer.glade.h:52
+#, fuzzy
+msgid "_Group values by:"
+msgstr "από:"
+
+#: ../src/audit-viewer.glade.h:53
+msgid "_Help"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:54
+msgid "_Include rotated files"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:55
+#, fuzzy
+msgid "_List Events for"
+msgstr "Λίστα Γεγονότα για"
+
+#: ../src/audit-viewer.glade.h:56
+#, fuzzy
+msgid "_Log file:"
+msgstr "αρχείο:"
+
+#: ../src/audit-viewer.glade.h:57
+#, fuzzy
+msgid "_Name:"
+msgstr "Όνομα:"
+
+#: ../src/audit-viewer.glade.h:58
+msgid "_Next Event"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:59
+msgid "_Open in new window"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:60
+#, fuzzy
+msgid "_Path:"
+msgstr "_Διαδρομή:"
+
+#: ../src/audit-viewer.glade.h:61
+msgid "_Previous Event"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:62
+#, fuzzy
+msgid "_Save Configuration as..."
+msgstr "Αποθήκευση Ρυθμίσεις."
+
+#: ../src/audit-viewer.glade.h:63
+#, fuzzy
+msgid "_Save layout as..."
+msgstr "Αποθήκευση."
+
+#: ../src/audit-viewer.glade.h:64
+msgid "_Show as a chart"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:65
+msgid "_View"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:66
+msgid "_Window"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:67
+msgid "gtk-about"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:68
+msgid "gtk-apply"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:69
+msgid "gtk-close"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:70
+msgid "gtk-open"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:71
+#, fuzzy
+msgid "gtk-properties"
+msgstr "Λίστα Ιδιότητες"
+
+#: ../src/audit-viewer.glade.h:72
+msgid "gtk-quit"
+msgstr ""
+
+#: ../../po/../src/client.py:113
+#, fuzzy
+msgid "Not enough data available"
+msgstr "Όχι"
+
+#: ../../po/../src/event_dialog.py:48
+#, fuzzy
+msgid "Field"
+msgstr "Πεδίο"
+
+#: ../../po/../src/event_dialog.py:51
+#, fuzzy
+msgid "Value"
+msgstr "Τιμή"
+
+#: ../../po/../src/event_dialog.py:58
+#, fuzzy
+msgid "Record Type"
+msgstr "Τύπος Record "
+
+#: ../../po/../src/filters.py:204
+#, fuzzy, python-format
+msgid "date %s %s.%03d"
+msgstr "ημερομηνία"
+
+#: ../../po/../src/filters.py:205 ../../po/../src/statistic.py:303
+#, fuzzy
+msgid "%x %H:%M:%S"
+msgstr "x H"
+
+#: ../../po/../src/filters.py:257
+#, fuzzy, python-format
+msgid "date %s now"
+msgstr "ημερομηνία τώρα"
+
+#: ../../po/../src/filters.py:284
+#, fuzzy, python-format
+msgid "date %s %d minute ago"
+msgid_plural "date %s %d minutes ago"
+msgstr[0] "ημερομηνία ημ"
+msgstr[1] "ημερομηνία ημ"
+
+#: ../../po/../src/filters.py:316
+#, fuzzy, python-format
+msgid "date %s today 00:00"
+msgstr "ημερομηνία σήμερα 00"
+
+#: ../../po/../src/filters.py:333
+#, fuzzy, python-format
+msgid "date %s yesterday 00:00"
+msgstr "ημερομηνία χθες 00"
+
+#: ../../po/../src/filters.py:350
+#, fuzzy, python-format
+msgid "date %s start of this week"
+msgstr "ημερομηνία έναρξη από εβδομάδα"
+
+#: ../../po/../src/filters.py:367
+#, fuzzy, python-format
+msgid "date %s start of this month"
+msgstr "ημερομηνία έναρξη από μήνας"
+
+#: ../../po/../src/filters.py:384
+#, fuzzy, python-format
+msgid "date %s start of this year"
+msgstr "ημερομηνία έναρξη από έτος"
+
+#: ../../po/../src/list_properties.py:42
+#, fuzzy
+msgid "Event date"
+msgstr "Συμβάν ημερομηνία"
+
+#: ../../po/../src/list_properties.py:43
+#, fuzzy
+msgid "Other fields"
+msgstr "Άλλα πεδία"
+
+#: ../../po/../src/list_properties.py:53
+#, fuzzy
+msgid "Column"
+msgstr "Στήλη"
+
+#: ../../po/../src/list_properties.py:133
+#, fuzzy
+msgid "Field name must not be empty"
+msgstr "Πεδίο όνομα όχι κενό"
+
+#: ../../po/../src/list_tab.py:127
+#, fuzzy
+msgid "_List"
+msgstr "_Λίστα"
+
+#: ../../po/../src/list_tab.py:145
+#, fuzzy, python-format
+msgid "List %d"
+msgstr "Λίστα ημ"
+
+#: ../../po/../src/list_tab.py:173 ../../po/../src/report_tab.py:90
+#, fuzzy
+msgid "HTML"
+msgstr "HTML"
+
+#: ../../po/../src/list_tab.py:173 ../../po/../src/report_tab.py:90
+#, fuzzy
+msgid "CSV"
+msgstr "CSV"
+
+#: ../../po/../src/list_tab.py:174
+msgid "Raw log data"
+msgstr ""
+
+#: ../../po/../src/list_tab.py:175 ../../po/../src/report_tab.py:91
+#, fuzzy
+msgid "Export..."
+msgstr "Εξαγωγή..."
+
+#: ../../po/../src/list_tab.py:190 ../../po/../src/main_window.py:436
+#: ../../po/../src/main_window.py:476 ../../po/../src/report_tab.py:104
+#, fuzzy, python-format
+msgid "Error writing to %s: %s"
+msgstr "Σφάλμα"
+
+#: ../../po/../src/list_tab.py:200
+#, fuzzy
+msgid ", "
+msgstr ", "
+
+#: ../../po/../src/list_tab.py:202
+#, fuzzy
+msgid "None"
+msgstr "Κανένα"
+
+#: ../../po/../src/list_tab.py:284
+#, fuzzy
+msgid "Other Fields"
+msgstr "Άλλο Πεδία"
+
+#: ../../po/../src/list_tab.py:286
+#, fuzzy
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: ../../po/../src/main.py:41
+msgid "%prog [OPTION]... [FILE]..."
+msgstr ""
+
+#: ../../po/../src/main.py:44
+#, fuzzy
+msgid "Start an audit event viewer."
+msgstr "γεγονός."
+
+#: ../../po/../src/main.py:48
+#, fuzzy
+msgid ""
+"do not attempt to start the privileged backend for reading system audit logs"
+msgstr "όχι έναρξη για σύστημα"
+
+#: ../../po/../src/main.py:64
+#, fuzzy, python-format
+msgid "Error running audit-viewer-server: %s"
+msgstr "Σφάλμα εκτελείται"
+
+#: ../../po/../src/main_window.py:72
+msgid "Audit viewer layout"
+msgstr ""
+
+#: ../../po/../src/main_window.py:222
+#, fuzzy, python-format
+msgid "A file named \"%s\" already exists.  Do you want to replace it?"
+msgstr "αρχείο υποφαινόμενο αντικατάσταση?"
+
+#: ../../po/../src/main_window.py:226
+#, fuzzy, python-format
+msgid ""
+"The file already exists in \"%s\".  Replacing it will overwrite its contents."
+msgstr "αρχείο μέσα περιεχόμενα."
+
+#: ../../po/../src/main_window.py:232
+#, fuzzy
+msgid "_Replace"
+msgstr "Αντικατάσταση"
+
+#: ../../po/../src/main_window.py:270
+#, fuzzy, python-format
+msgid "Error reading audit events: %s"
+msgstr "Σφάλμα"
+
+#: ../../po/../src/main_window.py:293
+#, fuzzy
+msgid "All files"
+msgstr "Όλα τα αρχεία"
+
+#: ../../po/../src/main_window.py:331
+#, fuzzy
+msgid "Unexpected top element contents"
+msgstr "Μη αναμενόμενο επάνω στοιχείο περιεχόμενα"
+
+#: ../../po/../src/main_window.py:334
+#, fuzzy, python-format
+msgid "Unsupported file version %s"
+msgstr "αρχείο έκδοση"
+
+#: ../../po/../src/main_window.py:351
+#, fuzzy
+msgid "Unexpected top element"
+msgstr "Μη αναμενόμενο επάνω στοιχείο"
+
+#: ../../po/../src/main_window.py:359
+#, fuzzy, python-format
+msgid "Error reading %s: %s"
+msgstr "Σφάλμα"
+
+#: ../../po/../src/main_window.py:364
+#, fuzzy, python-format
+msgid "Invalid contents of %s: %s"
+msgstr "Μη έγκυρο περιεχόμενα από"
+
+#: ../../po/../src/main_window.py:405
+#, fuzzy
+msgid "Open..."
+msgstr "Άνοιγμα..."
+
+#: ../../po/../src/main_window.py:419
+#, fuzzy
+msgid "Save Layout As..."
+msgstr "Αποθήκευση Διάταξη."
+
+#: ../../po/../src/main_window.py:460
+#, fuzzy
+msgid "Save Configuration As..."
+msgstr "Αποθήκευση Ρυθμίσεις."
+
+#: ../../po/../src/main_window.py:523
+#, fuzzy
+msgid "translator-credits"
+msgstr "Δημήτρης Γλέζος <dimitris@glezos.com>, 2006"
+
+#. This file is not installed; it is used only to make sure the strings
+#. used by Python's optparse module are translated.
+#: ../../po/../src/optparse_strings.py:3
+#, fuzzy, python-format
+msgid "no such option: %s"
+msgstr "όχι"
+
+#: ../../po/../src/optparse_strings.py:4
+#, python-format
+msgid "ambiguous option: %s (%s?)"
+msgstr ""
+
+#: ../../po/../src/optparse_strings.py:5
+#, fuzzy, python-format
+msgid "Usage: %s\n"
+msgstr "Χρήση n"
+
+#: ../../po/../src/optparse_strings.py:6
+#, fuzzy
+msgid "Usage"
+msgstr "Χρήση"
+
+#: ../../po/../src/optparse_strings.py:7
+#, fuzzy
+msgid "integer"
+msgstr "integer"
+
+#: ../../po/../src/optparse_strings.py:8
+#, fuzzy
+msgid "long integer"
+msgstr "integer"
+
+#: ../../po/../src/optparse_strings.py:9
+#, fuzzy
+msgid "floating-point"
+msgstr "σημείο"
+
+#: ../../po/../src/optparse_strings.py:10
+msgid "complex"
+msgstr ""
+
+#: ../../po/../src/optparse_strings.py:11
+#, fuzzy, python-format
+msgid "option %s: invalid %s value: %r"
+msgstr "τιμή r"
+
+#: ../../po/../src/optparse_strings.py:12
+#, fuzzy, python-format
+msgid "option %s: invalid choice: %r (choose from %s)"
+msgstr "επιλογή r από"
+
+#: ../../po/../src/optparse_strings.py:13
+#, fuzzy
+msgid "show this help message and exit"
+msgstr "help Μήνυμα και"
+
+#: ../../po/../src/optparse_strings.py:14
+#, fuzzy
+msgid "show program's version number and exit"
+msgstr "πρόγραμμα έκδοση αριθμός και"
+
+#: ../../po/../src/optparse_strings.py:15
+#, fuzzy
+msgid "%prog [options]"
+msgstr "Επιλογές"
+
+#: ../../po/../src/optparse_strings.py:16
+#: ../../po/../src/optparse_strings.py:19
+#, python-format
+msgid "%s option requires an argument"
+msgstr ""
+
+#: ../../po/../src/optparse_strings.py:17
+#: ../../po/../src/optparse_strings.py:20
+#, fuzzy, python-format
+msgid "%s option requires %d arguments"
+msgstr "ημ"
+
+#: ../../po/../src/optparse_strings.py:18
+#, fuzzy, python-format
+msgid "%s option does not take a value"
+msgstr "όχι a τιμή"
+
+#: ../../po/../src/optparse_strings.py:21
+#, fuzzy
+msgid "Options"
+msgstr "Επιλογές"
+
+#: ../../po/../src/report_tab.py:56
+#, fuzzy
+msgid "_Report"
+msgstr "Αναφορά"
+
+#: ../../po/../src/report_tab.py:73
+#, fuzzy, python-format
+msgid "Report %d"
+msgstr "Αναφορά ημ"
+
+#: ../../po/../src/report_tab.py:123 ../../po/../src/report_tab.py:154
+#, fuzzy
+msgid "Listing events for this column is not supported."
+msgstr "για είναι όχι υποστηρίζεται."
+
+#: ../../po/../src/report_tab.py:126
+#, fuzzy
+msgid "Listing events for this cell is not supported."
+msgstr "για κελί είναι όχι υποστηρίζεται."
+
+#: ../../po/../src/report_tab.py:131 ../../po/../src/report_tab.py:142
+#, fuzzy
+msgid "Listing events for this row is not supported."
+msgstr "για γραμμή είναι όχι υποστηρίζεται."
+
+#: ../../po/../src/report_tab.py:236 ../../po/../src/report_tab.py:276
+#: ../../po/../src/report_tab.py:480
+#, fuzzy
+msgid "Count"
+msgstr "Πλήθος"
+
+#: ../../po/../src/search_entry.py:72
+msgid "Search..."
+msgstr ""
+
+#: ../../po/../src/server.c:128
+#, fuzzy
+msgid ""
+"This program is only for use by audit-viewer and it should not be run "
+"manually.\n"
+msgstr "πρόγραμμα είναι για από και όχι χειρωνακτικά n"
+
+#: ../../po/../src/server.c:141
+#, fuzzy, c-format
+msgid ""
+"\n"
+"Report bugs to %s.\n"
+msgstr "n"
+
+#: ../../po/../src/server.c:148
+#, fuzzy
+msgid ""
+"Copyright (C) 2008 Red Hat, Inc.  All rights reserved.\n"
+"This software is distributed under the GPL v.2.\n"
+"\n"
+"This program is provided with NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"Πνευματικά δικαιώματα C Κόκκινο Όλα είναι GPL v n πρόγραμμα είναι με ΟΧΙ από."
+
+#: ../../po/../src/server.c:294
+#, fuzzy
+msgid "The control file is not a socket"
+msgstr "αρχείο είναι όχι a"
+
+#: ../../po/../src/server.c:309
+#, fuzzy, c-format
+msgid "Unknown server request %<PRIu32>"
+msgstr "Άγνωστο<PRIu32>"
+
+#: ../../po/../src/source_dialog.py:62
+#, fuzzy
+msgid "Audit Log File"
+msgstr "Αρχείο"
+
+#: ../../po/../src/source_dialog.py:137
+#, fuzzy
+msgid "No system log file available"
+msgstr "Όχι"
+
+#: ../../po/../src/source_dialog.py:146
+#, fuzzy, python-format
+msgid "Error opening %s: %s"
+msgstr "Σφάλμα άνοιγμα"
+
+#: ../../po/../src/statistic.py:166
+#, fuzzy
+msgid "Unspecified"
+msgstr "Ακαθόριστο"
+
+#: ../../po/../src/statistic.py:341
+#, fuzzy, python-format
+msgid "%x %X"
+msgstr "x Χ"
+
+#: ../../po/../src/statistic.py:355
+#, fuzzy
+msgid "%x %H:%M"
+msgstr "x H"
+
+#: ../../po/../src/statistic.py:365
+#, fuzzy
+msgid "%x %H"
+msgstr "x H"
+
+#: ../../po/../src/statistic.py:389
+#, fuzzy
+msgid "hour"
+msgstr "ώρα"
+
+#: ../../po/../src/statistic.py:392
+#, fuzzy, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "ημ ώρα"
+msgstr[1] "ημ ώρα"
+
+#: ../../po/../src/statistic.py:394
+msgid "minute"
+msgstr ""
+
+#: ../../po/../src/statistic.py:397
+#, fuzzy, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "ημ"
+msgstr[1] "ημ"
+
+#: ../../po/../src/statistic.py:399
+#, fuzzy
+msgid "second"
+msgstr "δεύτερο"
+
+#: ../../po/../src/statistic.py:401
+#, fuzzy, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "ημ δεύτερο"
+msgstr[1] "ημ δεύτερο"
+
+#: ../../po/../src/statistic.py:456
+#, fuzzy
+msgid "day"
+msgstr "ημέρα"
+
+#: ../../po/../src/statistic.py:476
+#, fuzzy
+msgid "week"
+msgstr "εβδομάδα"
+
+#: ../../po/../src/statistic.py:504
+#, fuzzy
+msgid "%b %Y"
+msgstr "b"
+
+#: ../../po/../src/statistic.py:521
+#, fuzzy
+msgid "month"
+msgstr "μήνας"
+
+#: ../../po/../src/tab_properties.py:130
+#, fuzzy
+msgid "Specific time"
+msgstr "ώρα"
+
+#: ../../po/../src/tab_properties.py:132
+#, fuzzy
+msgid "Now"
+msgstr "Τώρα"
+
+#: ../../po/../src/tab_properties.py:133
+#, fuzzy
+msgid "10 minutes ago"
+msgstr "λεπτά"
+
+#: ../../po/../src/tab_properties.py:136
+#, fuzzy
+msgid "Today"
+msgstr "Σήμερα"
+
+#: ../../po/../src/tab_properties.py:137
+#, fuzzy
+msgid "Yesterday"
+msgstr "Χθές"
+
+#: ../../po/../src/tab_properties.py:138
+#, fuzzy
+msgid "This week"
+msgstr "εβδομάδα"
+
+#: ../../po/../src/tab_properties.py:139
+#, fuzzy
+msgid "This month"
+msgstr "μήνας"
+
+#: ../../po/../src/tab_properties.py:141
+#, fuzzy
+msgid "This year"
+msgstr "έτος"
+
+#: ../../po/../src/tab_properties.py:184
+#, fuzzy, python-format
+msgid "Unsupported date filter \"%s\""
+msgstr "ημερομηνία φίλτρο"
+
+#: ../../po/../src/tab_properties.py:248
+#, fuzzy
+msgid "Rule"
+msgstr "Κανόνας"
+
+#: ../../po/../src/tab_properties.py:319
+#, fuzzy, python-format
+msgid "Unsupported timestamp operator in \"%s\""
+msgstr "μέσα"
+
+#: ../../po/../src/tab_properties.py:382
+#, fuzzy
+msgid "Editing of some filters is not supported"
+msgstr "Επεξεργασία από είναι όχι υποστηρίζεται"
+
+#: ../../po/../src/tab_properties.py:384
+#, fuzzy, python-format
+msgid ""
+"If you edit properties of this tab, these filters will be dropped from the "
+"tab's configuration:\n"
+"%s\n"
+"Do you still want to edit properties of this tab?"
+msgstr ""
+"υποφαινόμενο επεξεργασία από στηλοθ. από στηλοθ. n υποφαινόμενο επεξεργασία "
+"από στηλοθ.?"
+
+#: ../../po/../src/tab_properties.py:400
+#, fuzzy
+msgid "Tab name must not be empty"
+msgstr "όνομα όχι κενό"
+
+#. self._validate_get_failure() doesn't allow empty tab name
+#: ../../po/../src/tab_properties.py:425
+#, fuzzy, python-format
+msgid "%s Properties"
+msgstr "Λίστα Ιδιότητες"
+
+#: ../../po/../src/util.py:245
+#, fuzzy, python-format
+msgid "Invalid <%s %s> value %s"
+msgstr "Μη έγκυρο τιμή"
+
+#: ../../po/../src/util.py:250
+#, fuzzy, python-format
+msgid "Unknown <%s %s> value %s"
+msgstr "Άγνωστο τιμή"
+
+#: ../../po/../src/util.py:257
+#, fuzzy, python-format
+msgid "Attribute %s missing in <%s>"
+msgstr "αγνοείται μέσα"
+
+#: ../audit-viewer.desktop.in.h:1
+msgid "Audit Logs"
+msgstr ""
+
+#: ../audit-viewer.desktop.in.h:2
+#, fuzzy
+msgid "View audit logs"
+msgstr "Προβολή"
+
+#: ../audit-viewer.xml.in.h:1
+msgid "Audit viewer configuration"
+msgstr ""
+
+#, fuzzy
+#~ msgid "Report Properties"
+#~ msgstr "Αναφορά Ιδιότητες"

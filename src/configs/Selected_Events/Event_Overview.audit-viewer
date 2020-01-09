@@ -1,0 +1,1 @@
+<tab_configuration><tab tab_name="Event Overview" type="event_list"><filters /><sort reverse="false" type="date" /><columns><column type="date" /><column field="type" type="field" /><column field="auid" type="field" /><column field="res" type="field" /></columns></tab></tab_configuration>

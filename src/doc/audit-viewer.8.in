@@ -1,0 +1,77 @@
+.\" A man page for audit-viewer(8).
+.\"
+.\" Copyright (C) 2009 Red Hat, Inc.  All rights reserved.
+.\" This copyrighted material is made available to anyone wishing to use,
+.\" modify, copy, or redistribute it subject to the terms and conditions of the
+.\" GNU General Public License v.2.
+.\"
+.\" This program is distributed in the hope that it will be useful, but
+.\" WITHOUT ANY WARRANTY expressed or implied, including the implied
+.\" warranties of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+.\" GNU General Public License for more details.
+.\"
+.\" You should have received a copy of the GNU General Public License along
+.\" not, write to the Free Software Foundation, Inc., 51 Franklin Street, Fifth
+.\" Floor, Boston, MA 02110-1301, USA.
+.\"
+.\" Any Red Hat trademarks that are incorporated in the source code or
+.\" documentation are not subject to the GNU General Public License and may
+.\" only be used or replicated with the express permission of Red Hat, Inc.
+.\"
+.\" Red Hat Author: Miloslav Trmac <mitr@redhat.com>
+.TH audit-viewer 8 2009-10-01 audit-viewer
+
+.SH NAME
+audit-viewer \- A graphical utility for viewing and summarizing audit events
+
+.SH SYNOPSIS
+\fBaudit-viewer\fR [\fB\-\-unprivileged\fR] \fISAVED\fR...
+
+.SH DESCRIPTION
+.B audit-viewer
+is a GUI for viewing and summarizing audit events.
+
+Tabs displaying specific configuration can be specified on the command line
+using one or more
+.I SAVED
+file names,
+each file should contain either a previously saved window layout
+or a previously saved configuration of a single tab.
+
+If no
+.I SAVED
+files are specified,
+.B audit-viewer
+opens a simple unfiltered list of audit events.
+
+.SH OPTIONS
+.TP
+\fB\-\-unprivileged\fR
+Do not try to start the privileged
+.B audit-viewer-server
+back-end.
+
+If this option is specified,
+only audit log files that are readable by the current user are available.
+This usually means that the system audit log files stored in
+.B @localstatedir@/log/audit
+are not available.
+
+.SH EXIT STATUS
+.B audit-viewer
+usually exists with status 0.
+Non-zero exit status is returned if
+.B audit-viewer
+can not start the
+.B audit-viewer-server
+back-end or terminates unexpectedly.
+
+.SH FILES
+.TP
+\fB@localstatedir@/log/audit\fR
+The directory containing system log files.
+
+.SH SEE ALSO
+.BR ausearch-expression (5),
+.BR aureport (8),
+.BR ausearch (8)

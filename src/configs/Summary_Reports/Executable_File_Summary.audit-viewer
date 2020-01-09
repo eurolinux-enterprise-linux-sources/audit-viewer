@@ -1,0 +1,1 @@
+<tab_configuration><tab tab_name="Executable File Summary" type="count_report"><filters><filter field="exe" op="!=" type="field" value="" /></filters><row_statistic field="exe" type="simple_field" /></tab></tab_configuration>

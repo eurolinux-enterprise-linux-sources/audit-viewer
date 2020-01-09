@@ -1,0 +1,19 @@
+# To regenerate: (cd po; ls | sed -n 's/\.po$//p').  Then remove languages with
+# no translations.
+ca
+cs
+de
+el
+es
+it
+ja
+ms
+nb
+nl
+pl
+pt
+pt_BR
+ru
+sr
+sr@latin
+zh_CN

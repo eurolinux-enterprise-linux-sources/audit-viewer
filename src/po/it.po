@@ -1,0 +1,861 @@
+# translation of it.po to Italiano
+#
+#
+# Silvio Pierro <perplesso82@gmail.com>, 2008.
+# Carlo Raudino <carloraudino@gmail.com>, 2008.
+# mario_santagiuliana <mario at marionline.it>, 2009.
+# Francesco Tombolini <tombo@adamantio.net>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: it\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-07 15:23+0200\n"
+"PO-Revision-Date: 2009-05-23 16:30+0200\n"
+"Last-Translator: Francesco Tombolini <tombo@adamantio.net>\n"
+"Language-Team: Italiano <fedora-trans-it@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: ../src/audit-viewer.glade.h:1
+msgid "."
+msgstr "."
+
+#. A "decimal point" separating seconds and milliseconds.
+#: ../src/audit-viewer.glade.h:3
+msgid ":"
+msgstr ":"
+
+#: ../src/audit-viewer.glade.h:4
+msgid "<b>Event Order</b>"
+msgstr "<b>Ordine eventi</b>"
+
+#: ../src/audit-viewer.glade.h:5
+msgid "<b>Group Columns _by:</b>"
+msgstr "<b>Raggruppare colonne _per:</b>"
+
+#: ../src/audit-viewer.glade.h:6
+msgid "<b>Group Rows by:</b>"
+msgstr "<b>Raggruppare righe per:</b>"
+
+#: ../src/audit-viewer.glade.h:7
+msgid "<b>Identification</b>"
+msgstr "<b>Identificazione</b>"
+
+#: ../src/audit-viewer.glade.h:8
+msgid "<b>Limit to events _before:</b>"
+msgstr "<b>Limita agli eventi pre_cedenti:</b>"
+
+#: ../src/audit-viewer.glade.h:9
+msgid "<b>Limit to events not _earlier than:</b>"
+msgstr "<b>Limita agli eventi non pri_ma di:</b>"
+
+#: ../src/audit-viewer.glade.h:10
+msgid "<b>Records</b>"
+msgstr "<b>Elementi</b>"
+
+#: ../src/audit-viewer.glade.h:11
+msgid "<b>Tab</b>"
+msgstr "<b>Scheda</b>"
+
+#: ../src/audit-viewer.glade.h:12
+msgid "<b>_File</b>"
+msgstr "<b>_File</b>"
+
+#: ../src/audit-viewer.glade.h:13
+msgid "<b>_System audit log</b>"
+msgstr "<b>Log audit di _sistema</b>"
+
+#: ../src/audit-viewer.glade.h:14
+msgid "Audit Event Source"
+msgstr "Sorgente eventi audit"
+
+#: ../src/audit-viewer.glade.h:15 ../../po/../src/main_window.py:506
+msgid "Audit Viewer"
+msgstr "Visualizzatore audit"
+
+#: ../src/audit-viewer.glade.h:16
+msgid "Automatic file type e_xtension"
+msgstr "Estensione del tipo file _automatica"
+
+#: ../src/audit-viewer.glade.h:17
+msgid "Change _event source..."
+msgstr "Cambia sorgente _evento..."
+
+#: ../src/audit-viewer.glade.h:18
+msgid "Columns"
+msgstr "Colonne"
+
+#: ../src/audit-viewer.glade.h:19
+msgid "Current Co_lumn"
+msgstr "Co_lonna attuale"
+
+#: ../src/audit-viewer.glade.h:20
+msgid "Current _Cell"
+msgstr "_Cella attuale"
+
+#: ../src/audit-viewer.glade.h:21
+msgid "Current _Row"
+msgstr "_Riga attuale"
+
+#: ../src/audit-viewer.glade.h:22
+msgid "Date Filter"
+msgstr "Filtro data"
+
+#: ../src/audit-viewer.glade.h:23
+msgid "Event Details"
+msgstr "Dettagli evento"
+
+#: ../src/audit-viewer.glade.h:24
+msgid "Expression"
+msgstr "Espressione"
+
+#: ../src/audit-viewer.glade.h:25
+msgid "F_ield:"
+msgstr "Ca_mpo:"
+
+#: ../src/audit-viewer.glade.h:26
+msgid "File _type:"
+msgstr "_Tipo file:"
+
+#: ../src/audit-viewer.glade.h:27
+msgid "Filter"
+msgstr "Filtro"
+
+#: ../src/audit-viewer.glade.h:28
+msgid "Filter:"
+msgstr "Filtro:"
+
+#: ../src/audit-viewer.glade.h:29
+msgid "General"
+msgstr "Generale"
+
+#: ../src/audit-viewer.glade.h:30
+msgid "Group _values by:"
+msgstr "Raggruppa _valori per:"
+
+#: ../src/audit-viewer.glade.h:31
+msgid "Grouping"
+msgstr "Raggruppamento"
+
+#: ../src/audit-viewer.glade.h:32
+msgid "LIST/REPORT"
+msgstr "ELENCO/RESOCONTO"
+
+#: ../src/audit-viewer.glade.h:33
+msgid "New _List"
+msgstr "Nuovo _elenco"
+
+#: ../src/audit-viewer.glade.h:34
+msgid "New _Report on this View..."
+msgstr "Nuovo _resoconto in questa vista..."
+
+#: ../src/audit-viewer.glade.h:35
+msgid "New _Report..."
+msgstr "Nuovo _resoconto..."
+
+#: ../src/audit-viewer.glade.h:36
+msgid "Order:"
+msgstr "Ordine:"
+
+#: ../src/audit-viewer.glade.h:37
+msgid "Re_fresh"
+msgstr "A_ggiorna"
+
+#: ../src/audit-viewer.glade.h:38
+msgid "Serial number:"
+msgstr "Numero seriale:"
+
+#: ../src/audit-viewer.glade.h:39
+msgid "Sort by:"
+msgstr "Ordina per:"
+
+#: ../src/audit-viewer.glade.h:40
+msgid ""
+"The chart has too many data points.  Please restrict your data filter or use "
+"coarser data grouping criteria."
+msgstr ""
+"Il diagramma ha ancora troppi punti. Restringere il filtro dati o usare il "
+"filtro raggruppamento dati coarser."
+
+#: ../src/audit-viewer.glade.h:41
+msgid "Time:"
+msgstr "Tempo:"
+
+#: ../src/audit-viewer.glade.h:42
+msgid ""
+"You can add aditional conditions using the <tt>ausearch</tt> expression "
+"language.  Run <tt>(man ausearch-expression)</tt> to read the documentation "
+"of the language."
+msgstr ""
+"Si possono inserire condizioni aggiuntive usando espressioni di linguaggio "
+"<tt>ausearch</tt>.  Eseguire <tt>(man ausearch-expression)</tt> per leggere "
+"la documentazione del linguaggio."
+
+#: ../src/audit-viewer.glade.h:43
+msgid "_Ascending"
+msgstr "_Ascendente"
+
+#: ../src/audit-viewer.glade.h:44
+msgid "_Browse..."
+msgstr "_Naviga..."
+
+#: ../src/audit-viewer.glade.h:45
+msgid "_Close"
+msgstr "_Chiudi"
+
+#: ../src/audit-viewer.glade.h:46
+msgid "_Descending"
+msgstr "_Discendente"
+
+#: ../src/audit-viewer.glade.h:47
+msgid "_Event Details"
+msgstr "Dettagli _Evento"
+
+#: ../src/audit-viewer.glade.h:48
+msgid "_Event Time"
+msgstr "Orario _Evento"
+
+#: ../src/audit-viewer.glade.h:49
+msgid "_Export..."
+msgstr "_Esporta..."
+
+#: ../src/audit-viewer.glade.h:50
+msgid "_Expression:"
+msgstr "_Espressione:"
+
+#: ../src/audit-viewer.glade.h:51
+msgid "_Field:"
+msgstr "_Campo:"
+
+#: ../src/audit-viewer.glade.h:52
+msgid "_Group values by:"
+msgstr "Ra_ggruppa valori per:"
+
+#: ../src/audit-viewer.glade.h:53
+msgid "_Help"
+msgstr "_Aiuto"
+
+#: ../src/audit-viewer.glade.h:54
+msgid "_Include rotated files"
+msgstr "_Includi file ruotati"
+
+#: ../src/audit-viewer.glade.h:55
+msgid "_List Events for"
+msgstr "E_lenca eventi per"
+
+#: ../src/audit-viewer.glade.h:56
+msgid "_Log file:"
+msgstr "File di _log:"
+
+#: ../src/audit-viewer.glade.h:57
+msgid "_Name:"
+msgstr "_Nome:"
+
+#: ../src/audit-viewer.glade.h:58
+msgid "_Next Event"
+msgstr "_Prossimo evento"
+
+#: ../src/audit-viewer.glade.h:59
+msgid "_Open in new window"
+msgstr "Apri in una nu_ova finestra"
+
+#: ../src/audit-viewer.glade.h:60
+msgid "_Path:"
+msgstr "_Percorso:"
+
+#: ../src/audit-viewer.glade.h:61
+msgid "_Previous Event"
+msgstr "Evento _precedente"
+
+#: ../src/audit-viewer.glade.h:62
+msgid "_Save Configuration as..."
+msgstr "_Salva configurazione come..."
+
+#: ../src/audit-viewer.glade.h:63
+msgid "_Save layout as..."
+msgstr "_Salva disposizione come..."
+
+#: ../src/audit-viewer.glade.h:64
+msgid "_Show as a chart"
+msgstr "Mo_stra come diagramma"
+
+#: ../src/audit-viewer.glade.h:65
+msgid "_View"
+msgstr "_Vista"
+
+#: ../src/audit-viewer.glade.h:66
+msgid "_Window"
+msgstr "_Finestra"
+
+#: ../src/audit-viewer.glade.h:67
+msgid "gtk-about"
+msgstr "gtk-about"
+
+#: ../src/audit-viewer.glade.h:68
+msgid "gtk-apply"
+msgstr "gtk-apply"
+
+#: ../src/audit-viewer.glade.h:69
+msgid "gtk-close"
+msgstr "gtk-close"
+
+#: ../src/audit-viewer.glade.h:70
+msgid "gtk-open"
+msgstr "gtk-open"
+
+#: ../src/audit-viewer.glade.h:71
+msgid "gtk-properties"
+msgstr "gtk-properties"
+
+#: ../src/audit-viewer.glade.h:72
+msgid "gtk-quit"
+msgstr "gtk-quit"
+
+#: ../../po/../src/client.py:113
+msgid "Not enough data available"
+msgstr "Dati disponibili insufficienti"
+
+#: ../../po/../src/event_dialog.py:48
+msgid "Field"
+msgstr "Campo"
+
+#: ../../po/../src/event_dialog.py:51
+msgid "Value"
+msgstr "Valore"
+
+#: ../../po/../src/event_dialog.py:58
+msgid "Record Type"
+msgstr "Tipo elemento"
+
+#: ../../po/../src/filters.py:204
+#, python-format
+msgid "date %s %s.%03d"
+msgstr "data %s %s.%03d"
+
+#: ../../po/../src/filters.py:205 ../../po/../src/statistic.py:303
+msgid "%x %H:%M:%S"
+msgstr "%x %H:%M:%S"
+
+#: ../../po/../src/filters.py:257
+#, python-format
+msgid "date %s now"
+msgstr "data %s adesso"
+
+#: ../../po/../src/filters.py:284
+#, python-format
+msgid "date %s %d minute ago"
+msgid_plural "date %s %d minutes ago"
+msgstr[0] "data %s %d minuto fa"
+msgstr[1] "data %s %d minuti fa"
+
+#: ../../po/../src/filters.py:316
+#, python-format
+msgid "date %s today 00:00"
+msgstr "data %s oggi 00:00"
+
+#: ../../po/../src/filters.py:333
+#, python-format
+msgid "date %s yesterday 00:00"
+msgstr "data %s ieri 00:00"
+
+#: ../../po/../src/filters.py:350
+#, python-format
+msgid "date %s start of this week"
+msgstr "data %s inizio di questa settimana"
+
+#: ../../po/../src/filters.py:367
+#, python-format
+msgid "date %s start of this month"
+msgstr "data %s inizio di questo mese"
+
+#: ../../po/../src/filters.py:384
+#, python-format
+msgid "date %s start of this year"
+msgstr "data %s inizio di quest'anno"
+
+#: ../../po/../src/list_properties.py:42
+msgid "Event date"
+msgstr "Data evento"
+
+#: ../../po/../src/list_properties.py:43
+msgid "Other fields"
+msgstr "Altri campi"
+
+#: ../../po/../src/list_properties.py:53
+msgid "Column"
+msgstr "Colonna"
+
+#: ../../po/../src/list_properties.py:133
+msgid "Field name must not be empty"
+msgstr "Il nome del campo non può essere vuoto"
+
+#: ../../po/../src/list_tab.py:127
+msgid "_List"
+msgstr "E_lenco"
+
+#: ../../po/../src/list_tab.py:145
+#, python-format
+msgid "List %d"
+msgstr "Elenco %d"
+
+#: ../../po/../src/list_tab.py:173 ../../po/../src/report_tab.py:90
+msgid "HTML"
+msgstr "HTML"
+
+#: ../../po/../src/list_tab.py:173 ../../po/../src/report_tab.py:90
+msgid "CSV"
+msgstr "CSV"
+
+#: ../../po/../src/list_tab.py:174
+msgid "Raw log data"
+msgstr "Dati log grezzi"
+
+#: ../../po/../src/list_tab.py:175 ../../po/../src/report_tab.py:91
+msgid "Export..."
+msgstr "Esporta..."
+
+#: ../../po/../src/list_tab.py:190 ../../po/../src/main_window.py:436
+#: ../../po/../src/main_window.py:476 ../../po/../src/report_tab.py:104
+#, python-format
+msgid "Error writing to %s: %s"
+msgstr "Errore scrivendo in %s: %s"
+
+#: ../../po/../src/list_tab.py:200
+msgid ", "
+msgstr ", "
+
+#: ../../po/../src/list_tab.py:202
+msgid "None"
+msgstr "Niente"
+
+#: ../../po/../src/list_tab.py:284
+msgid "Other Fields"
+msgstr "Altri campi"
+
+#: ../../po/../src/list_tab.py:286
+msgid "Date"
+msgstr "Data"
+
+#: ../../po/../src/main.py:41
+msgid "%prog [OPTION]... [FILE]..."
+msgstr "%prog [OPTION]... [FILE]..."
+
+#: ../../po/../src/main.py:44
+msgid "Start an audit event viewer."
+msgstr "Avviare un visualizzatore eventi audit."
+
+#: ../../po/../src/main.py:48
+msgid ""
+"do not attempt to start the privileged backend for reading system audit logs"
+msgstr ""
+"non tentare di avviare il backend con privilegi per leggere i log audit di "
+"sistema"
+
+#: ../../po/../src/main.py:64
+#, python-format
+msgid "Error running audit-viewer-server: %s"
+msgstr "Errore avviando audit-viewer-server: %s"
+
+#: ../../po/../src/main_window.py:72
+msgid "Audit viewer layout"
+msgstr "Disposizione audit viewer"
+
+#: ../../po/../src/main_window.py:222
+#, python-format
+msgid "A file named \"%s\" already exists.  Do you want to replace it?"
+msgstr "Un file con nome \"%s\" esiste già.  Si desidera sostituirlo?"
+
+#: ../../po/../src/main_window.py:226
+#, python-format
+msgid ""
+"The file already exists in \"%s\".  Replacing it will overwrite its contents."
+msgstr ""
+"Il file già esiste in \"%s\".  Sostituendolo verranno sovrascritti i "
+"contenuti."
+
+#: ../../po/../src/main_window.py:232
+msgid "_Replace"
+msgstr "Sostitui_re"
+
+#: ../../po/../src/main_window.py:270
+#, python-format
+msgid "Error reading audit events: %s"
+msgstr "Errore leggendo gli eventi audit: %s"
+
+#: ../../po/../src/main_window.py:293
+msgid "All files"
+msgstr "Tutti i file"
+
+#: ../../po/../src/main_window.py:331
+msgid "Unexpected top element contents"
+msgstr "Contenuti dell'elemento superiore inaspettato"
+
+#: ../../po/../src/main_window.py:334
+#, python-format
+msgid "Unsupported file version %s"
+msgstr "Versione file non supportata %s"
+
+#: ../../po/../src/main_window.py:351
+msgid "Unexpected top element"
+msgstr "Elemento superiore inaspettato"
+
+#: ../../po/../src/main_window.py:359
+#, python-format
+msgid "Error reading %s: %s"
+msgstr "Errore leggendo %s: %s"
+
+#: ../../po/../src/main_window.py:364
+#, python-format
+msgid "Invalid contents of %s: %s"
+msgstr "Contenuti non validi di %s: %s"
+
+#: ../../po/../src/main_window.py:405
+msgid "Open..."
+msgstr "Apri..."
+
+#: ../../po/../src/main_window.py:419
+msgid "Save Layout As..."
+msgstr "Salva disposizione come..."
+
+#: ../../po/../src/main_window.py:460
+msgid "Save Configuration As..."
+msgstr "Salva configurazione come..."
+
+#: ../../po/../src/main_window.py:523
+msgid "translator-credits"
+msgstr ""
+"Silvio Pierro <perplesso82@gmail.com>, 2008.\n"
+"Carlo Raudino <carloraudino@gmail.com>, 2008.\n"
+"Mario Santagiuliana <mario@marionline.it>, 2009.\n"
+"Francesco Tombolini <tombo@adamantio.net>, 2009."
+
+#. This file is not installed; it is used only to make sure the strings
+#. used by Python's optparse module are translated.
+#: ../../po/../src/optparse_strings.py:3
+#, python-format
+msgid "no such option: %s"
+msgstr "opzione assente: %s"
+
+#: ../../po/../src/optparse_strings.py:4
+#, python-format
+msgid "ambiguous option: %s (%s?)"
+msgstr "opzione ambigua: %s (%s?)"
+
+#: ../../po/../src/optparse_strings.py:5
+#, python-format
+msgid "Usage: %s\n"
+msgstr "Utilizzo: %s\n"
+
+#: ../../po/../src/optparse_strings.py:6
+msgid "Usage"
+msgstr "Utilizzo"
+
+#: ../../po/../src/optparse_strings.py:7
+msgid "integer"
+msgstr "intero"
+
+#: ../../po/../src/optparse_strings.py:8
+msgid "long integer"
+msgstr "intero lungo"
+
+#: ../../po/../src/optparse_strings.py:9
+msgid "floating-point"
+msgstr "virgola mobile"
+
+#: ../../po/../src/optparse_strings.py:10
+msgid "complex"
+msgstr "complesso"
+
+#: ../../po/../src/optparse_strings.py:11
+#, python-format
+msgid "option %s: invalid %s value: %r"
+msgstr "opzione %s: %s non valida valore: %r"
+
+#: ../../po/../src/optparse_strings.py:12
+#, python-format
+msgid "option %s: invalid choice: %r (choose from %s)"
+msgstr "opzione %s: scelta non valida: %r (scegliere da %s)"
+
+#: ../../po/../src/optparse_strings.py:13
+msgid "show this help message and exit"
+msgstr "mostra questo messaggio d'aiuto ed esci"
+
+#: ../../po/../src/optparse_strings.py:14
+msgid "show program's version number and exit"
+msgstr "mostra il numero di versione del programma ed esci"
+
+#: ../../po/../src/optparse_strings.py:15
+msgid "%prog [options]"
+msgstr "%prog [options]"
+
+#: ../../po/../src/optparse_strings.py:16
+#: ../../po/../src/optparse_strings.py:19
+#, python-format
+msgid "%s option requires an argument"
+msgstr "l'opzione %s richiede un argomento"
+
+#: ../../po/../src/optparse_strings.py:17
+#: ../../po/../src/optparse_strings.py:20
+#, python-format
+msgid "%s option requires %d arguments"
+msgstr "l'opzione %s richiede %d argomenti"
+
+#: ../../po/../src/optparse_strings.py:18
+#, python-format
+msgid "%s option does not take a value"
+msgstr "l'opzione %s non prende un valore"
+
+#: ../../po/../src/optparse_strings.py:21
+msgid "Options"
+msgstr "Opzioni"
+
+#: ../../po/../src/report_tab.py:56
+msgid "_Report"
+msgstr "_Resoconto"
+
+#: ../../po/../src/report_tab.py:73
+#, python-format
+msgid "Report %d"
+msgstr "Resoconto %d"
+
+#: ../../po/../src/report_tab.py:123 ../../po/../src/report_tab.py:154
+msgid "Listing events for this column is not supported."
+msgstr "Elenco eventi non supportato per questa colonna."
+
+#: ../../po/../src/report_tab.py:126
+msgid "Listing events for this cell is not supported."
+msgstr "Elenco eventi non supportato per questa cella."
+
+#: ../../po/../src/report_tab.py:131 ../../po/../src/report_tab.py:142
+msgid "Listing events for this row is not supported."
+msgstr "Elenco eventi non supportato per questa riga."
+
+#: ../../po/../src/report_tab.py:236 ../../po/../src/report_tab.py:276
+#: ../../po/../src/report_tab.py:480
+msgid "Count"
+msgstr "Conto"
+
+#: ../../po/../src/search_entry.py:72
+msgid "Search..."
+msgstr "Trova..."
+
+#: ../../po/../src/server.c:128
+msgid ""
+"This program is only for use by audit-viewer and it should not be run "
+"manually.\n"
+msgstr ""
+"Questo programma è utilizzabile solo da audit-viewer e non deve essere "
+"avviato manualmente.\n"
+
+#: ../../po/../src/server.c:141
+#, c-format
+msgid ""
+"\n"
+"Report bugs to %s.\n"
+msgstr ""
+"\n"
+"Segnala un errore a %s.\n"
+
+#: ../../po/../src/server.c:148
+msgid ""
+"Copyright (C) 2008 Red Hat, Inc.  All rights reserved.\n"
+"This software is distributed under the GPL v.2.\n"
+"\n"
+"This program is provided with NO WARRANTY, to the extent permitted by law."
+msgstr ""
+"Copyright (C) 2008 Red Hat, Inc.  Tutti i diritti sono riservati.\n"
+"Questo software è distribuito sotto licenza GPL v.2.\n"
+"\n"
+"Questo programma è distribuito SENZA GARANZIA, nella misura consentita dalla "
+"legge."
+
+#: ../../po/../src/server.c:294
+msgid "The control file is not a socket"
+msgstr "Il file di controllo non è un socket"
+
+#: ../../po/../src/server.c:309
+#, c-format
+msgid "Unknown server request %<PRIu32>"
+msgstr "Richiesta sconosciuta del server %<PRIu32>"
+
+#: ../../po/../src/source_dialog.py:62
+msgid "Audit Log File"
+msgstr "File di log audit"
+
+#: ../../po/../src/source_dialog.py:137
+msgid "No system log file available"
+msgstr "Nessun file di log di sistema disponibile"
+
+#: ../../po/../src/source_dialog.py:146
+#, python-format
+msgid "Error opening %s: %s"
+msgstr "Errore aprendo %s: %s"
+
+#: ../../po/../src/statistic.py:166
+msgid "Unspecified"
+msgstr "Non specificato"
+
+#: ../../po/../src/statistic.py:341
+#, python-format
+msgid "%x %X"
+msgstr "%x %X"
+
+#: ../../po/../src/statistic.py:355
+msgid "%x %H:%M"
+msgstr "%x %H:%M"
+
+#: ../../po/../src/statistic.py:365
+msgid "%x %H"
+msgstr "%x %H"
+
+#: ../../po/../src/statistic.py:389
+msgid "hour"
+msgstr "ora"
+
+#: ../../po/../src/statistic.py:392
+#, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "%d ora"
+msgstr[1] "%d ore"
+
+#: ../../po/../src/statistic.py:394
+msgid "minute"
+msgstr "minuto"
+
+#: ../../po/../src/statistic.py:397
+#, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minuto"
+msgstr[1] "%d minuti"
+
+#: ../../po/../src/statistic.py:399
+msgid "second"
+msgstr "secondo"
+
+#: ../../po/../src/statistic.py:401
+#, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "%d secondo"
+msgstr[1] "%d secondi"
+
+#: ../../po/../src/statistic.py:456
+msgid "day"
+msgstr "giorno"
+
+#: ../../po/../src/statistic.py:476
+msgid "week"
+msgstr "settimana"
+
+#: ../../po/../src/statistic.py:504
+msgid "%b %Y"
+msgstr "%b %Y"
+
+#: ../../po/../src/statistic.py:521
+msgid "month"
+msgstr "mese"
+
+#: ../../po/../src/tab_properties.py:130
+msgid "Specific time"
+msgstr "Data specifica"
+
+#: ../../po/../src/tab_properties.py:132
+msgid "Now"
+msgstr "Ora"
+
+#: ../../po/../src/tab_properties.py:133
+msgid "10 minutes ago"
+msgstr "10 minuti fa"
+
+#: ../../po/../src/tab_properties.py:136
+msgid "Today"
+msgstr "Oggi"
+
+#: ../../po/../src/tab_properties.py:137
+msgid "Yesterday"
+msgstr "Ieri"
+
+#: ../../po/../src/tab_properties.py:138
+msgid "This week"
+msgstr "Questa settimana"
+
+#: ../../po/../src/tab_properties.py:139
+msgid "This month"
+msgstr "Questo mese"
+
+#: ../../po/../src/tab_properties.py:141
+msgid "This year"
+msgstr "Quest'anno"
+
+#: ../../po/../src/tab_properties.py:184
+#, python-format
+msgid "Unsupported date filter \"%s\""
+msgstr "Filtro data non supportato \"%s\""
+
+#: ../../po/../src/tab_properties.py:248
+msgid "Rule"
+msgstr "Regola"
+
+#: ../../po/../src/tab_properties.py:319
+#, python-format
+msgid "Unsupported timestamp operator in \"%s\""
+msgstr "Operatore timestamp non supportato in \"%s\""
+
+#: ../../po/../src/tab_properties.py:382
+msgid "Editing of some filters is not supported"
+msgstr "La modifica di alcuni filtri non è supportata"
+
+#: ../../po/../src/tab_properties.py:384
+#, python-format
+msgid ""
+"If you edit properties of this tab, these filters will be dropped from the "
+"tab's configuration:\n"
+"%s\n"
+"Do you still want to edit properties of this tab?"
+msgstr ""
+"Se si modificano le proprietà della scheda, questi filtri saranno eliminati "
+"dalla configurazione della scheda:\n"
+"%s\n"
+"Modificare le proprietà di questa scheda?"
+
+#: ../../po/../src/tab_properties.py:400
+msgid "Tab name must not be empty"
+msgstr "Il nome della scheda non può essere vuoto"
+
+#. self._validate_get_failure() doesn't allow empty tab name
+#: ../../po/../src/tab_properties.py:425
+#, python-format
+msgid "%s Properties"
+msgstr "%s propietà"
+
+#: ../../po/../src/util.py:245
+#, python-format
+msgid "Invalid <%s %s> value %s"
+msgstr "Valore <%s %s> non valido %s"
+
+#: ../../po/../src/util.py:250
+#, python-format
+msgid "Unknown <%s %s> value %s"
+msgstr "Valore <%s %s> sconosciuto %s"
+
+#: ../../po/../src/util.py:257
+#, python-format
+msgid "Attribute %s missing in <%s>"
+msgstr "Attributo %s mancante in <%s>"
+
+#: ../audit-viewer.desktop.in.h:1
+msgid "Audit Logs"
+msgstr "Log audit"
+
+#: ../audit-viewer.desktop.in.h:2
+msgid "View audit logs"
+msgstr "Visualizza i log audit"
+
+#: ../audit-viewer.xml.in.h:1
+msgid "Audit viewer configuration"
+msgstr "Configurazione visualizzatore audit"

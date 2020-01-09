@@ -1,0 +1,931 @@
+# audit-viewer Bahasa Melayu (Malay) (ms)
+# Copyright (C) 2008 Fedora Project
+# This file is distributed under the same license as the audit-viewer package.
+# Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: audit-viewer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-07-07 15:23+0200\n"
+"PO-Revision-Date: 2008-12-21 20:25+0800\n"
+"Last-Translator: Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>\n"
+"Language-Team: Malay <translation-team-ms@lists.sourceforge.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/audit-viewer.glade.h:1
+msgid "."
+msgstr "."
+
+#. A "decimal point" separating seconds and milliseconds.
+#: ../src/audit-viewer.glade.h:3
+msgid ":"
+msgstr ":"
+
+#: ../src/audit-viewer.glade.h:4
+#, fuzzy
+msgid "<b>Event Order</b>"
+msgstr "&1 %1 -> %2 Dalam Susunan"
+
+#: ../src/audit-viewer.glade.h:5
+#, fuzzy
+msgid "<b>Group Columns _by:</b>"
+msgstr "Hakcipta (C) %s Mandriva"
+
+#: ../src/audit-viewer.glade.h:6
+#, fuzzy
+msgid "<b>Group Rows by:</b>"
+msgstr "Hakcipta (C) %s Mandriva"
+
+#: ../src/audit-viewer.glade.h:7
+#, fuzzy
+msgid "<b>Identification</b>"
+msgstr "Pengenalpastian Pelayar"
+
+#: ../src/audit-viewer.glade.h:8
+#, fuzzy
+msgid "<b>Limit to events _before:</b>"
+msgstr "Simpan perubahan ke dokumen %s sebelum menutup?"
+
+#: ../src/audit-viewer.glade.h:9
+msgid "<b>Limit to events not _earlier than:</b>"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:10
+msgid "<b>Records</b>"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:11
+msgid "<b>Tab</b>"
+msgstr "<b>Tab</b>"
+
+#: ../src/audit-viewer.glade.h:12
+#, fuzzy
+msgid "<b>_File</b>"
+msgstr "&Fail"
+
+#: ../src/audit-viewer.glade.h:13
+#, fuzzy
+msgid "<b>_System audit log</b>"
+msgstr "Tapis Pelihat &Log..."
+
+#: ../src/audit-viewer.glade.h:14
+#, fuzzy
+msgid "Audit Event Source"
+msgstr "Fail Sumber 'Ada' (nama perisian)"
+
+#: ../src/audit-viewer.glade.h:15 ../../po/../src/main_window.py:506
+#, fuzzy
+msgid "Audit Viewer"
+msgstr "Pemapar DjVu"
+
+#: ../src/audit-viewer.glade.h:16
+#, fuzzy
+msgid "Automatic file type e_xtension"
+msgstr "Fail %s adalah dari jenis tidak diketahui"
+
+#: ../src/audit-viewer.glade.h:17
+#, fuzzy
+msgid "Change _event source..."
+msgstr "Fail Sumber 'Ada' (nama perisian)"
+
+#: ../src/audit-viewer.glade.h:18
+msgid "Columns"
+msgstr "Lajur"
+
+#: ../src/audit-viewer.glade.h:19
+#, fuzzy
+msgid "Current Co_lumn"
+msgstr "Padam &Lajur"
+
+#: ../src/audit-viewer.glade.h:20
+#, fuzzy
+msgid "Current _Cell"
+msgstr "Pilih Sel"
+
+#: ../src/audit-viewer.glade.h:21
+#, fuzzy
+msgid "Current _Row"
+msgstr "Padam Baris"
+
+#: ../src/audit-viewer.glade.h:22
+#, fuzzy
+msgid "Date Filter"
+msgstr "Terap tapisan"
+
+#: ../src/audit-viewer.glade.h:23
+#, fuzzy
+msgid "Event Details"
+msgstr "Maklumat lanjut Susunatur"
+
+#: ../src/audit-viewer.glade.h:24
+#, fuzzy
+msgid "Expression"
+msgstr "&Ungkapan:"
+
+#: ../src/audit-viewer.glade.h:25
+msgid "F_ield:"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:26
+#, fuzzy
+msgid "File _type:"
+msgstr "Jenis Fail"
+
+#: ../src/audit-viewer.glade.h:27
+#, fuzzy
+msgid "Filter"
+msgstr "Tapis"
+
+#: ../src/audit-viewer.glade.h:28
+#, fuzzy
+msgid "Filter:"
+msgstr "&Tapis"
+
+#: ../src/audit-viewer.glade.h:29
+msgid "General"
+msgstr "Umum"
+
+#: ../src/audit-viewer.glade.h:30
+#, fuzzy
+msgid "Group _values by:"
+msgstr "Hakcipta (C) %s Mandriva"
+
+#: ../src/audit-viewer.glade.h:31
+msgid "Grouping"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:32
+#, fuzzy
+msgid "LIST/REPORT"
+msgstr "&Lapor Pepijat"
+
+#: ../src/audit-viewer.glade.h:33
+#, fuzzy
+msgid "New _List"
+msgstr "Senarai Label Baru"
+
+#: ../src/audit-viewer.glade.h:34
+msgid "New _Report on this View..."
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:35
+#, fuzzy
+msgid "New _Report..."
+msgstr "&Lapor Pepijat"
+
+#: ../src/audit-viewer.glade.h:36
+#, fuzzy
+msgid "Order:"
+msgstr "Susunan"
+
+#: ../src/audit-viewer.glade.h:37
+#, fuzzy
+msgid "Re_fresh"
+msgstr "&Berbalik"
+
+#: ../src/audit-viewer.glade.h:38
+#, fuzzy
+msgid "Serial number:"
+msgstr "Jumlah Lajur"
+
+#: ../src/audit-viewer.glade.h:39
+#, fuzzy
+msgid "Sort by:"
+msgstr "Isih Jadual"
+
+#: ../src/audit-viewer.glade.h:40
+msgid ""
+"The chart has too many data points.  Please restrict your data filter or use "
+"coarser data grouping criteria."
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:41
+msgid "Time:"
+msgstr "Masa:"
+
+#: ../src/audit-viewer.glade.h:42
+msgid ""
+"You can add aditional conditions using the <tt>ausearch</tt> expression "
+"language.  Run <tt>(man ausearch-expression)</tt> to read the documentation "
+"of the language."
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:43
+msgid "_Ascending"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:44
+#, fuzzy
+msgid "_Browse..."
+msgstr "Lungsur"
+
+#: ../src/audit-viewer.glade.h:45
+#, fuzzy
+msgid "_Close"
+msgstr "&Tutup"
+
+#: ../src/audit-viewer.glade.h:46
+msgid "_Descending"
+msgstr ""
+
+#: ../src/audit-viewer.glade.h:47
+#, fuzzy
+msgid "_Event Details"
+msgstr "Maklumat lanjut Susunatur"
+
+#: ../src/audit-viewer.glade.h:48
+#, fuzzy
+msgid "_Event Time"
+msgstr "Masa Himpun"
+
+#: ../src/audit-viewer.glade.h:49
+#, fuzzy
+msgid "_Export..."
+msgstr "&Eksport..."
+
+#: ../src/audit-viewer.glade.h:50
+#, fuzzy
+msgid "_Expression:"
+msgstr "&Ungkapan:"
+
+#: ../src/audit-viewer.glade.h:51
+#, fuzzy
+msgid "_Field:"
+msgstr "&Medan"
+
+#: ../src/audit-viewer.glade.h:52
+#, fuzzy
+msgid "_Group values by:"
+msgstr "Hakcipta (C) %s Mandriva"
+
+#: ../src/audit-viewer.glade.h:53
+#, fuzzy
+msgid "_Help"
+msgstr "_Bantuan"
+
+#: ../src/audit-viewer.glade.h:54
+#, fuzzy
+msgid "_Include rotated files"
+msgstr "Semua Fail Imej"
+
+#: ../src/audit-viewer.glade.h:55
+#, fuzzy
+msgid "_List Events for"
+msgstr "&Cari Bantuan"
+
+#: ../src/audit-viewer.glade.h:56
+#, fuzzy
+msgid "_Log file:"
+msgstr "Fail Log Aplikasi"
+
+#: ../src/audit-viewer.glade.h:57
+#, fuzzy
+msgid "_Name:"
+msgstr "&Nama:"
+
+#: ../src/audit-viewer.glade.h:58
+#, fuzzy
+msgid "_Next Event"
+msgstr "&Cari Lagi"
+
+#: ../src/audit-viewer.glade.h:59
+#, fuzzy
+msgid "_Open in new window"
+msgstr "Memebuka tetingkap aplikasi baru..."
+
+#: ../src/audit-viewer.glade.h:60
+#, fuzzy
+msgid "_Path:"
+msgstr "Laluan"
+
+#: ../src/audit-viewer.glade.h:61
+#, fuzzy
+msgid "_Previous Event"
+msgstr ""
+"Perenggan Terdahulu Perenggan Terdahulu Perenggan Terdahulu Perenggan "
+"Terdahulu Perenggan Terdahulu Perenggan Terdahulu Perenggan Terdahulu"
+
+#: ../src/audit-viewer.glade.h:62
+#, fuzzy
+msgid "_Save Configuration as..."
+msgstr "&Simpan Imej Sebagai"
+
+#: ../src/audit-viewer.glade.h:63
+#, fuzzy
+msgid "_Save layout as..."
+msgstr "&Simpan Imej Sebagai"
+
+#: ../src/audit-viewer.glade.h:64
+#, fuzzy
+msgid "_Show as a chart"
+msgstr "Carta OpenDocument OASIS"
+
+#: ../src/audit-viewer.glade.h:65
+#, fuzzy
+msgid "_View"
+msgstr "&Lihat"
+
+#: ../src/audit-viewer.glade.h:66
+#, fuzzy
+msgid "_Window"
+msgstr "&Tetingkap"
+
+#: ../src/audit-viewer.glade.h:67
+#, fuzzy
+msgid "gtk-about"
+msgstr "Mengenai dialog"
+
+#: ../src/audit-viewer.glade.h:68
+#, fuzzy
+msgid "gtk-apply"
+msgstr "Terap kepada:"
+
+#: ../src/audit-viewer.glade.h:69
+#, fuzzy
+msgid "gtk-close"
+msgstr "Tutup dokumen"
+
+#: ../src/audit-viewer.glade.h:70
+#, fuzzy
+msgid "gtk-open"
+msgstr "Buka Fail"
+
+#: ../src/audit-viewer.glade.h:71
+#, fuzzy
+msgid "gtk-properties"
+msgstr "Ciri-ciri Dokumen"
+
+#: ../src/audit-viewer.glade.h:72
+#, fuzzy
+msgid "gtk-quit"
+msgstr "/Fail/_Keluar"
+
+#: ../../po/../src/client.py:113
+#, fuzzy
+msgid "Not enough data available"
+msgstr "Data yang diminta tiada."
+
+#: ../../po/../src/event_dialog.py:48
+#, fuzzy
+msgid "Field"
+msgstr "&Medan"
+
+#: ../../po/../src/event_dialog.py:51
+msgid "Value"
+msgstr "Nilai"
+
+#: ../../po/../src/event_dialog.py:58
+#, fuzzy
+msgid "Record Type"
+msgstr "Jenis per&nomboran:"
+
+#: ../../po/../src/filters.py:204
+#, fuzzy, python-format
+msgid "date %s %s.%03d"
+msgstr "Tarikh Himpun"
+
+#: ../../po/../src/filters.py:205 ../../po/../src/statistic.py:303
+msgid "%x %H:%M:%S"
+msgstr "%x %H:%M:%S"
+
+#: ../../po/../src/filters.py:257
+#, fuzzy, python-format
+msgid "date %s now"
+msgstr "_Tetapan sendiri sekarang"
+
+#: ../../po/../src/filters.py:284
+#, fuzzy, python-format
+msgid "date %s %d minute ago"
+msgid_plural "date %s %d minutes ago"
+msgstr[0] "Tarikh/masa bolehubah"
+msgstr[1] ""
+
+#: ../../po/../src/filters.py:316
+#, fuzzy, python-format
+msgid "date %s today 00:00"
+msgstr "Tarikh/masa bolehubah"
+
+#: ../../po/../src/filters.py:333
+#, fuzzy, python-format
+msgid "date %s yesterday 00:00"
+msgstr "Tarikh/masa bolehubah"
+
+#: ../../po/../src/filters.py:350
+#, python-format
+msgid "date %s start of this week"
+msgstr ""
+
+#: ../../po/../src/filters.py:367
+#, python-format
+msgid "date %s start of this month"
+msgstr ""
+
+#: ../../po/../src/filters.py:384
+#, python-format
+msgid "date %s start of this year"
+msgstr ""
+
+#: ../../po/../src/list_properties.py:42
+#, fuzzy
+msgid "Event date"
+msgstr "Tarikh Himpun"
+
+#: ../../po/../src/list_properties.py:43
+#, fuzzy
+msgid "Other fields"
+msgstr "Medan yang Ada  "
+
+#: ../../po/../src/list_properties.py:53
+msgid "Column"
+msgstr "Lajur"
+
+#: ../../po/../src/list_properties.py:133
+msgid "Field name must not be empty"
+msgstr ""
+
+#: ../../po/../src/list_tab.py:127
+#, fuzzy
+msgid "_List"
+msgstr "Senarai"
+
+#: ../../po/../src/list_tab.py:145
+#, fuzzy, python-format
+msgid "List %d"
+msgstr "Senarai"
+
+#: ../../po/../src/list_tab.py:173 ../../po/../src/report_tab.py:90
+msgid "HTML"
+msgstr "HTML"
+
+#: ../../po/../src/list_tab.py:173 ../../po/../src/report_tab.py:90
+msgid "CSV"
+msgstr "CSV"
+
+#: ../../po/../src/list_tab.py:174
+#, fuzzy
+msgid "Raw log data"
+msgstr "Data Program Rosak"
+
+#: ../../po/../src/list_tab.py:175 ../../po/../src/report_tab.py:91
+#, fuzzy
+msgid "Export..."
+msgstr "&Eksport..."
+
+#: ../../po/../src/list_tab.py:190 ../../po/../src/main_window.py:436
+#: ../../po/../src/main_window.py:476 ../../po/../src/report_tab.py:104
+#, fuzzy, python-format
+msgid "Error writing to %s: %s"
+msgstr "Ralat I/O ke fail tempatan"
+
+#: ../../po/../src/list_tab.py:200
+msgid ", "
+msgstr ", "
+
+#: ../../po/../src/list_tab.py:202
+msgid "None"
+msgstr "Tiada"
+
+#: ../../po/../src/list_tab.py:284
+#, fuzzy
+msgid "Other Fields"
+msgstr "Medan yang Ada  "
+
+#: ../../po/../src/list_tab.py:286
+msgid "Date"
+msgstr "Tarikh"
+
+#: ../../po/../src/main.py:41
+#, fuzzy
+msgid "%prog [OPTION]... [FILE]..."
+msgstr "Opsyen Sistem Fail:"
+
+#: ../../po/../src/main.py:44
+msgid "Start an audit event viewer."
+msgstr ""
+
+#: ../../po/../src/main.py:48
+msgid ""
+"do not attempt to start the privileged backend for reading system audit logs"
+msgstr ""
+
+#: ../../po/../src/main.py:64
+#, python-format
+msgid "Error running audit-viewer-server: %s"
+msgstr ""
+
+#: ../../po/../src/main_window.py:72
+#, fuzzy
+msgid "Audit viewer layout"
+msgstr "Tanda Susunatur Tidak Ke&lihatan"
+
+#: ../../po/../src/main_window.py:222
+#, python-format
+msgid "A file named \"%s\" already exists.  Do you want to replace it?"
+msgstr ""
+
+#: ../../po/../src/main_window.py:226
+#, python-format
+msgid ""
+"The file already exists in \"%s\".  Replacing it will overwrite its contents."
+msgstr ""
+
+#: ../../po/../src/main_window.py:232
+#, fuzzy
+msgid "_Replace"
+msgstr "&Ganti"
+
+#: ../../po/../src/main_window.py:270
+#, fuzzy, python-format
+msgid "Error reading audit events: %s"
+msgstr "Ralat apabila membaca fail."
+
+#: ../../po/../src/main_window.py:293
+#, fuzzy
+msgid "All files"
+msgstr "Semua Fail"
+
+#: ../../po/../src/main_window.py:331
+msgid "Unexpected top element contents"
+msgstr ""
+
+#: ../../po/../src/main_window.py:334
+#, fuzzy, python-format
+msgid "Unsupported file version %s"
+msgstr "mencapah selepas versi %d daripada %s"
+
+#: ../../po/../src/main_window.py:351
+#, fuzzy
+msgid "Unexpected top element"
+msgstr "Sudut Kiri-Atas"
+
+#: ../../po/../src/main_window.py:359
+#, fuzzy, python-format
+msgid "Error reading %s: %s"
+msgstr "Ralat membaca %s: %s"
+
+#: ../../po/../src/main_window.py:364
+#, fuzzy, python-format
+msgid "Invalid contents of %s: %s"
+msgstr "&Kandungan Bantuan"
+
+#: ../../po/../src/main_window.py:405
+#, fuzzy
+msgid "Open..."
+msgstr "B&uka"
+
+#: ../../po/../src/main_window.py:419
+#, fuzzy
+msgid "Save Layout As..."
+msgstr "&Simpan Imej Sebagai"
+
+#: ../../po/../src/main_window.py:460
+#, fuzzy
+msgid "Save Configuration As..."
+msgstr "&Simpan Imej Sebagai"
+
+#: ../../po/../src/main_window.py:523
+msgid "translator-credits"
+msgstr "Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>"
+
+#. This file is not installed; it is used only to make sure the strings
+#. used by Python's optparse module are translated.
+#: ../../po/../src/optparse_strings.py:3
+#, fuzzy, python-format
+msgid "no such option: %s"
+msgstr "Tiada direktori sedemikian"
+
+#: ../../po/../src/optparse_strings.py:4
+#, fuzzy, python-format
+msgid "ambiguous option: %s (%s?)"
+msgstr "%s: pilihan `%s' adalah kabur\n"
+
+#: ../../po/../src/optparse_strings.py:5
+#, fuzzy, python-format
+msgid "Usage: %s\n"
+msgstr "Penggunaan: %s\n"
+
+#: ../../po/../src/optparse_strings.py:6
+#, fuzzy
+msgid "Usage"
+msgstr "Penggunaan: %s\n"
+
+#: ../../po/../src/optparse_strings.py:7
+msgid "integer"
+msgstr "integer"
+
+#: ../../po/../src/optparse_strings.py:8
+#, fuzzy
+msgid "long integer"
+msgstr "integer diluar julat: %s"
+
+#: ../../po/../src/optparse_strings.py:9
+#, fuzzy
+msgid "floating-point"
+msgstr "Titik _Pelekapan:"
+
+#: ../../po/../src/optparse_strings.py:10
+msgid "complex"
+msgstr ""
+
+#: ../../po/../src/optparse_strings.py:11
+#, fuzzy, python-format
+msgid "option %s: invalid %s value: %r"
+msgstr "Tetapan pilihan lekaman tidak sah: %s\n"
+
+#: ../../po/../src/optparse_strings.py:12
+#, python-format
+msgid "option %s: invalid choice: %r (choose from %s)"
+msgstr ""
+
+#: ../../po/../src/optparse_strings.py:13
+msgid "show this help message and exit"
+msgstr ""
+
+#: ../../po/../src/optparse_strings.py:14
+#, fuzzy
+msgid "show program's version number and exit"
+msgstr "Papar maklumat program, nombor versi, dan hakcipta"
+
+#: ../../po/../src/optparse_strings.py:15
+#, fuzzy
+msgid "%prog [options]"
+msgstr "Pilihan Bina"
+
+#: ../../po/../src/optparse_strings.py:16
+#: ../../po/../src/optparse_strings.py:19
+#, fuzzy, python-format
+msgid "%s option requires an argument"
+msgstr "%s: pilihan `%s' memerlukan hujah\n"
+
+#: ../../po/../src/optparse_strings.py:17
+#: ../../po/../src/optparse_strings.py:20
+#, fuzzy, python-format
+msgid "%s option requires %d arguments"
+msgstr "%s: pilihan `%s' memerlukan hujah\n"
+
+#: ../../po/../src/optparse_strings.py:18
+#, python-format
+msgid "%s option does not take a value"
+msgstr ""
+
+#: ../../po/../src/optparse_strings.py:21
+msgid "Options"
+msgstr "Pilihan"
+
+#: ../../po/../src/report_tab.py:56
+#, fuzzy
+msgid "_Report"
+msgstr "Laporan"
+
+#: ../../po/../src/report_tab.py:73
+#, fuzzy, python-format
+msgid "Report %d"
+msgstr "Laporan"
+
+#: ../../po/../src/report_tab.py:123 ../../po/../src/report_tab.py:154
+msgid "Listing events for this column is not supported."
+msgstr ""
+
+#: ../../po/../src/report_tab.py:126
+msgid "Listing events for this cell is not supported."
+msgstr ""
+
+#: ../../po/../src/report_tab.py:131 ../../po/../src/report_tab.py:142
+msgid "Listing events for this row is not supported."
+msgstr ""
+
+#: ../../po/../src/report_tab.py:236 ../../po/../src/report_tab.py:276
+#: ../../po/../src/report_tab.py:480
+#, fuzzy
+msgid "Count"
+msgstr "Kira:"
+
+#: ../../po/../src/search_entry.py:72
+#, fuzzy
+msgid "Search..."
+msgstr "Cari:"
+
+#: ../../po/../src/server.c:128
+msgid ""
+"This program is only for use by audit-viewer and it should not be run "
+"manually.\n"
+msgstr ""
+
+#: ../../po/../src/server.c:141
+#, fuzzy, c-format
+msgid ""
+"\n"
+"Report bugs to %s.\n"
+msgstr ""
+"\n"
+"Lapor pepijat ke <%s>.\n"
+
+#: ../../po/../src/server.c:148
+msgid ""
+"Copyright (C) 2008 Red Hat, Inc.  All rights reserved.\n"
+"This software is distributed under the GPL v.2.\n"
+"\n"
+"This program is provided with NO WARRANTY, to the extent permitted by law."
+msgstr ""
+
+#: ../../po/../src/server.c:294
+#, fuzzy
+msgid "The control file is not a socket"
+msgstr "Fail %s adalah jenis tidak disokong pada masa ini"
+
+#: ../../po/../src/server.c:309
+#, c-format
+msgid "Unknown server request %<PRIu32>"
+msgstr ""
+
+#: ../../po/../src/source_dialog.py:62
+#, fuzzy
+msgid "Audit Log File"
+msgstr "Fail Log Aplikasi"
+
+#: ../../po/../src/source_dialog.py:137
+#, fuzzy
+msgid "No system log file available"
+msgstr "Data yang diminta tiada."
+
+#: ../../po/../src/source_dialog.py:146
+#, fuzzy, python-format
+msgid "Error opening %s: %s"
+msgstr "Ralat membuka fail kickstart %s: %s"
+
+#: ../../po/../src/statistic.py:166
+msgid "Unspecified"
+msgstr ""
+
+#: ../../po/../src/statistic.py:341
+#, python-format
+msgid "%x %X"
+msgstr "%x %X"
+
+#: ../../po/../src/statistic.py:355
+msgid "%x %H:%M"
+msgstr "%x %H:%M"
+
+#: ../../po/../src/statistic.py:365
+msgid "%x %H"
+msgstr "%x %H"
+
+#: ../../po/../src/statistic.py:389
+#, fuzzy
+msgid "hour"
+msgstr "Jam"
+
+#: ../../po/../src/statistic.py:392
+#, fuzzy, python-format
+msgid "%d hour"
+msgid_plural "%d hours"
+msgstr[0] "Jam"
+msgstr[1] ""
+
+#: ../../po/../src/statistic.py:394
+#, fuzzy
+msgid "minute"
+msgstr "Minit"
+
+#: ../../po/../src/statistic.py:397
+#, fuzzy, python-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "Minit"
+msgstr[1] ""
+
+#: ../../po/../src/statistic.py:399
+#, fuzzy
+msgid "second"
+msgstr "Tahap kedua..."
+
+#: ../../po/../src/statistic.py:401
+#, fuzzy, python-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] "Tahap kedua..."
+msgstr[1] ""
+
+#: ../../po/../src/statistic.py:456
+#, fuzzy
+msgid "day"
+msgstr "Hari"
+
+#: ../../po/../src/statistic.py:476
+#, fuzzy
+msgid "week"
+msgstr "Minggu %1"
+
+#: ../../po/../src/statistic.py:504
+msgid "%b %Y"
+msgstr "%b %Y"
+
+#: ../../po/../src/statistic.py:521
+#, fuzzy
+msgid "month"
+msgstr "Bulan"
+
+#: ../../po/../src/tab_properties.py:130
+#, fuzzy
+msgid "Specific time"
+msgstr "Masa Himpun"
+
+#: ../../po/../src/tab_properties.py:132
+msgid "Now"
+msgstr "Sekarang"
+
+#: ../../po/../src/tab_properties.py:133
+#, fuzzy
+msgid "10 minutes ago"
+msgstr "Kebarangkalian: %1 10<sup>8</sup>s<sup>-1</sup>"
+
+#: ../../po/../src/tab_properties.py:136
+msgid "Today"
+msgstr "Hari ini"
+
+#: ../../po/../src/tab_properties.py:137
+msgid "Yesterday"
+msgstr ""
+
+#: ../../po/../src/tab_properties.py:138
+#, fuzzy
+msgid "This week"
+msgstr "Pilih minggu"
+
+#: ../../po/../src/tab_properties.py:139
+#, fuzzy
+msgid "This month"
+msgstr "Bulan depan"
+
+#: ../../po/../src/tab_properties.py:141
+#, fuzzy
+msgid "This year"
+msgstr "Tahun depan"
+
+#: ../../po/../src/tab_properties.py:184
+#, fuzzy, python-format
+msgid "Unsupported date filter \"%s\""
+msgstr "<b>Menerapkan tindakan penapis:</b> "
+
+#: ../../po/../src/tab_properties.py:248
+#, fuzzy
+msgid "Rule"
+msgstr "Hukum %d"
+
+#: ../../po/../src/tab_properties.py:319
+#, fuzzy, python-format
+msgid "Unsupported timestamp operator in \"%s\""
+msgstr "Sambungan kritikal tidak disokong dalam sijil X.509."
+
+#: ../../po/../src/tab_properties.py:382
+msgid "Editing of some filters is not supported"
+msgstr ""
+
+#: ../../po/../src/tab_properties.py:384
+#, python-format
+msgid ""
+"If you edit properties of this tab, these filters will be dropped from the "
+"tab's configuration:\n"
+"%s\n"
+"Do you still want to edit properties of this tab?"
+msgstr ""
+
+#: ../../po/../src/tab_properties.py:400
+msgid "Tab name must not be empty"
+msgstr ""
+
+#. self._validate_get_failure() doesn't allow empty tab name
+#: ../../po/../src/tab_properties.py:425
+#, fuzzy, python-format
+msgid "%s Properties"
+msgstr "Ciri-ciri Dokumen"
+
+#: ../../po/../src/util.py:245
+#, python-format
+msgid "Invalid <%s %s> value %s"
+msgstr "Nilai %s tidak sah <%s %s>"
+
+#: ../../po/../src/util.py:250
+#, python-format
+msgid "Unknown <%s %s> value %s"
+msgstr "Nilai %s tidak diketahui <%s %s>"
+
+#: ../../po/../src/util.py:257
+#, python-format
+msgid "Attribute %s missing in <%s>"
+msgstr "Atribut %s hilang dalam <%s>"
+
+#: ../audit-viewer.desktop.in.h:1
+msgid "Audit Logs"
+msgstr "Log Audit"
+
+#: ../audit-viewer.desktop.in.h:2
+msgid "View audit logs"
+msgstr "Lihat log audit"
+
+#: ../audit-viewer.xml.in.h:1
+msgid "Audit viewer configuration"
+msgstr "Tetapan pelihat audit"

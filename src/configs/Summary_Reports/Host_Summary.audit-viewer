@@ -1,0 +1,1 @@
+<tab_configuration><tab tab_name="Host Summary" type="count_report"><filters><filter field="hostname" op="!=" type="field" value="" /></filters><row_statistic field="hostname" type="simple_field" /></tab></tab_configuration>

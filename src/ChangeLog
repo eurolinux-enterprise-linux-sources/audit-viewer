@@ -1,0 +1,740 @@
+2009-10-01  Miloslav Trmač  <mitr@redhat.com>
+
+	* configure.ac: Release version 0.5.1.
+	* NEWS: Update.
+	* po/LINGUAS: Update.
+
+	* Makefile.am (install-fedora, admin/audit-viewer-server.console)
+	(src/server.py, src/settings.py, src/audit-viewer): Use $(MKDIR_P)
+	instead of the obsolete $(mkdir_p).
+
+	* doc/audit-viewer.8.in: New file.
+	* Makefile.am (man_MANS, EXTRA_DIST, CLEANFILES)
+	(doc/audit-viewer.8): Ship and install audit-viewer.8.
+
+2009-09-15  Miloslav Trmač  <mitr@redhat.com>
+
+	* configure.ac: Release version 0.5.
+	* NEWS: Update.
+	* po/LINGUAS: Update.
+
+2009-06-14  Miloslav Trmač  <mitr@redhat.com>
+
+	* Makefile.am (DISTCLEANFILES, EXTRA_DIST)
+	* autogen.sh: Update for newer intltool.
+
+	* configure.ac: Update to gettext 0.17.
+
+2009-06-09  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/event_source.py (FileWithRotatedEventSource._create_parser):
+	Remove debugging code.
+
+	* src/audit-viewer.glade: Replace source_log_with_rotated by
+	source_with_rotated, affecting both source_type_log and
+	source_type_file.
+	* src/event_source.py (FileWithRotatedEventSource): New event source.
+	* src/source_dialog.py (SourceDialog): Replace source_log_with_rotated
+	by source_with_rotated.
+	(SourceDialog.load, SourceDialog.save)
+	(SourceDialog._validate_get_failure): Add support for
+	FileWithRotatedEventSource.
+
+	updated Spanish translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated Polish translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+2009-03-02  Miloslav Trmač  <mitr@redhat.com>
+
+	* README: Document that localstatedir must point to /var/log/audit.
+
+	* src/source_dialog.py
+	(SourceDialog.__source_log_with_rotated_toggled): Don't crash if no
+	system log files exist.
+	(SourceDialog._validate_get_failure): Prohibit choosing a system log
+	if none exists.
+
+	updated Spanish translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Added Romanian translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated Chinese Simplified translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	"Updated Chinese Simplified translation"
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated Chinese/Simplified translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated Malay translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated Spanish translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated Malay translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Creat zh_CN.po
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+2008-10-28  Miloslav Trmač  <mitr@redhat.com>
+
+	* configure.ac: Version 0.4.
+	* NEWS: Update.
+
+	Some changes in the German translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated Serbian Latin translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated Serbian translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated sr translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated Serbian Latin translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated Serbian translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated LINGUAS
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Initial Serbian Latin translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Initial Serbian translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated catalan po
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated German translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated pt_BR translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated Polish translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated pt_BR translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+2008-09-23  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/audit-viewer.glade: Set default main_window size to 640x396 (where
+	640/396 approximates the golden ratio).
+
+	* src/lists.py (field_names): Add 'node'.  Resolves ticket:3.
+
+	Updated pt_BR translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated Polish translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+	Updated pt_BR translation
+	Transmitted-via: Transifex (translate.fedoraproject.org)
+
+2008-08-19  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/audit-viewer.glade: Add source_log_with_rotated.
+	* src/event_source.py (ClientWithRotatedEventSource): New class.
+	(__digit_re): Use \d.
+	(is_rotated_file_name): New function.
+	* src/source_dialog.py (SourceDialog._glade_widget_names)
+	(SourceDialog.__source_type_log_toggled): Add source_log_with_rotated.
+	(SourceDialog.__init__): New parameter client.  All users changed.
+	Define self.client.
+	(SourceDialog.__type_map): Remove.
+	(SourceDialog.load, SourceDialog.save): Support
+	ClientWithRotatedEventSource.
+	(SourceDialog.__source_log_with_rotated_toggled): New function, split
+	from SourceDialog.load and heavily enhanced.
+
+	* src/event_source.py (sorted_log_files): New function.
+	* src/source_dialog.py (SourceDialog.load): Sort log files offered in
+	the combo to show them in the logical order.
+
+2008-08-02  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/list_tab.py (ListTab.__init__): Show the newest events at the top
+	by default.
+
+2008-07-24  Igor Pires Soares <igorsoares@gmail.com> (via
+	igor@fedoraproject.org)
+
+	* po/LINGUAS: pt_BR added to LINGUAS
+
+2008-07-24  Igor Pires Soares <igorsoares@gmail.com> (via
+	igor@fedoraproject.org)
+
+	* po/pt_BR.po: Initial pt_BR translation
+
+2008-07-22  Fabian Affolter <fabian@bernewireless.net> (via
+	fab@fedoraproject.org)
+
+	* po/de.po: Updated German translation
+
+2008-07-10  Kjartan Maraas <kmaraas@broadpark.no> (via
+	kmaraas@fedoraproject.org)
+
+	* po/nb.po: Added Norwegian bokmål translation.
+
+2008-07-07  Fabian Affolter <fabian@bernewireless.net> (via
+	fab@fedoraproject.org)
+
+	* po/de.po: Updated German translation
+
+2008-07-01  Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com> (via
+	szaman@fedoraproject.org)
+
+	* po/LINGUAS: Update LINGUAS to include Malay language
+
+2008-07-01  Sharuzzaman Ahmat Raslan <sharuzzaman@gmail.com> (via
+	szaman@fedoraproject.org)
+
+	* po/ms.po: Add new Malay translation
+
+2008-06-28  Piotr Drąg <piotrdrag@gmail.com> (via raven@fedoraproject.org)
+
+	* po/pl.po: Updated Polish translation
+
+2008-06-25  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/main_window.py (MainWindow.__window_destroy): Remove a debugging
+	print.
+
+	* configure.ac: Version 0.3.
+	* NEWS: Update.
+
+	* README: Document Python library requiremens.
+
+	* COPYING: Include our own copy of GPLv2 to prevent automatic "upgrade"
+	by automake.
+
+	* src/main.py: Remove another obsolete FIXME.
+
+	* src/audit-viewer.glade: Add report_chart_error.
+	* src/report_tab.py (ReportTab._glade_widget_names): Add
+	report_chart_error.
+	(ReportTab.__create_report_sheet, ReportTab.__repaint_chart): Show
+	report_chart_error instead of the chart if painting it would take too
+	long.
+	(ReportTab.__refresh_main_menu): Split from ReportTab.refresh().
+
+	* src/client.py (Client.__recv, Client.__send): Don't access nonexistent
+	members of socket.error.
+
+	* po/LINGUAS: Update.
+
+2008-06-25  Piotr Drąg <piotrdrag@gmail.com> (via raven@fedoraproject.org)
+
+	* po/pl.po: Updated Polish translation
+
+2008-06-25  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/report_tab.py (ReportTab.refresh): Hide the View->"List for..."
+	submenu when showing a chart.
+
+	* po/cs.po: Update Czech translation.
+
+	* src/audit-viewer.glade: Remove trailing tab from report_show_chart
+	label.
+
+	* src/format_versions.py (report_display_type_chart_version): New
+	variable.
+	* src/report_tab.py (ReportTab.__init__): Call the superclass
+	constructor first.  New member show_chart.
+	(ReportTab.refresh, ReportTab.save_config)
+	(ReportTab._load_config): Add chart support.
+	(ReportTab.__report_chart_size_allocate)
+	(ReportTab.__create_report_chart, ReportTab.__repaint_chart): New
+	methods.
+	(ReportTab.__create_report_sheet): Split from ReportTab.__init__.
+	* src/audit-viewer.glade: New checkbox report_show_chart.
+
+	* src/report_properties.py (ReportProperties._glade_widget_names): Add
+	report_show_chart.
+	(ReportProperties.load, ReportProperties.save): Add support for editing
+	tab.show_chart.
+
+	* src/report_tab.py (ReportTab.__export_csv.write_to_file)
+	(ReportTab.__export_html.write_to_file_
+	(ReportTab.__refresh_report_sheet): Remove unnecessary uses of
+	enumerate().
+
+	* src/audit-viewer.glade: Make Window/Close not a stock menu item to
+	avoid a conflict on the Ctrl-W keybinding.
+
+2008-06-24  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/report_tab.py (ReportTab.__init__): New member counts.
+	(ReportTab.__export_csv.write_to_file)
+	(ReportTab.__export_html.write_to_file): Use self.counts instead of
+	self.report_sheet.
+	(ReportTab.__refresh_get_event_sequence)
+	(ReportTab.__refresh_gather_statistics)
+	(ReportTab.__refresh_report_sheet): Split from self.refresh(), combine
+	ReportTab.__refresh_1d and ReportTab.__refresh_2d.
+	(ReportTab.__set_row_ranges, ReportTab.__set_column_ranges): Integrate
+	int ReportTab.__refresh_report_sheet.
+
+	* src/report_tab.py (ReportTab.__init__): Show the grouping tab in
+	ReportProperties when configuring a new report.
+
+2008-06-23  Piotr Drąg <piotrdrag@gmail.com> (via raven@fedoraproject.org)
+
+	* po/pl.po: Updated Polish translation
+
+2008-06-23  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/audit-viewer.glade: Rename the "File" menu to "Window".  New menu
+	items Window->Close and list/report->Open in new window.  Make
+	report_properties non-modal.
+	* src/main_window.py (MainWindow._glade_widget_names): New widgets
+	menu_tab_in_new_window and menu_window_close.
+	(MainWindow.__num_open_main_windows): New class variable.
+	(MainWindow.__init__): Use the default handler (destroying the window)
+	for delete-event.  Increment MainWindow.__num_open_main_windows.  Don't
+	open a basic list tab in every window.
+	(MainWindow.setup_initial_window): Process command-line arguments even
+	if the event source was already set up.  Open a basic list tab if no
+	command-line arguments are present.
+	(MainWindow.__menu_window_close_activate)
+	(MainWindow.__menu_tab_in_new_window_activate)
+	(MainWindow.__window_destroy): New signal handlers.
+
+	* src/report_properties.py (ReportProperties.__init__): Initialize
+	GObject.
+
+	* src/main_window.py (MainWindow.__init__): New parameters client,
+	source.
+	(MainWindow.setup_initial_window): New method, replaces
+	MainWindow.run().  Ensure only one error message is displayed during the
+	initial window setup.
+	(MainWindow.read_events, MainWindow.__refresh_all_tabs): Use a nesting
+	counter for surpressing repeated error messages.  Make the state
+	members private.
+	(MainWindow.__event_error_report_only_one_push)
+	(MainWindow.__event_error_report_only_one_pop): New methods.
+	* src/main.py: Update for MainWindow changes: run gtk.main() here.
+
+	* src/main.py: Remove an obsolete FIXME.
+
+	* src/audit-viewer.glade: Make tab properties dialog titles dynamic.
+	Add Apply buttons to tab properties dialogs.  Make tab property dialogs
+	non-modal and destroy them with their parents windows.
+	* src/tab_properties.py (TabProperties.__gsignals__): New class
+	variable.
+	(TabProperties.run): Remove.
+	(TabProperties.load): Rename from _load_tab().  All users and
+	implementations changed.  Show tab name in title of the dialog.
+	(TabProperties.save): Rename from _save_tab().  All users and
+	implementations changed.  Show tab name in title of the dialog.
+	(TabProperties.try_loading): New method, based on old
+	TabProperties.run().
+	(TabProperties.__update_dialog_title): New method.
+	(TabProperties.__window_destroy)
+	(TabProperties.__window_response): New signal handlers.
+	* src/tab.py (Tab.__init__): New member _properties_dialog.
+	(Tab.properties): Add a generic implementation.  Implementations in
+	subclasses removed.
+	(Tab._show_properties_dialog, Tab.__properties_dialog_destroy)
+	(Tab._properties_dialog_apply): New methods.
+	* src/report_properties.py (ReportProperties._glade_widget_names): Add
+	report_apply.
+	(ReportProperties.__init__): Remove parameter show_grouping_tab.
+	(ReportProperties.load): Destroy the Apply button when showing the
+	initial report configuration dialog.
+	(ReportProperties.show_grouping_tab): New method.
+	* src/report_tab.py (ReportTab._properties_class): New class variable.
+	(ReportTab.__init__): New parameter configuring, new member configuring.
+	(ReportTab._properties_dialog_apply): New method.
+	* src/main_window.py (MainWindow.attach_tab): Rename from __new_tab. All
+	users changed.
+	(MainWindow.new_report_tab): Move creation and handling of the initial
+	dialog to ReportTab.
+	* src/list_properties.py (ListProperties.__init__): Remove parameter
+	show_filter_tab.
+	(ListProperties.show_filter_tab): New method.
+	* src/list_tab.py (ListTab._properties_class): New class variable.
+	(ListTab.__list_filter_edit_clicked): Open the dialog non-modally.
+
+	* src/source_dialog.py (SourceDialog.__window_response): Use
+	DialogBase.destroy().
+
+2008-06-22  Piotr Drąg <piotrdrag@gmail.com> (via raven@fedoraproject.org)
+
+	* po/pl.po: Updated Polish translation
+
+2008-06-21  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/audit-viewer.glade: Add source_apply.  Destroy source_dialog with
+	its parent.
+	* src/dialog_base.py (DialogBase): Inherit from gobject.GObject.
+	(DialogBase.present): New method.
+	* src/source_dialog.py (SourceDialog.__gsignals__): New member.
+	(SourceDialog._glade_widget_names): Add source_apply.
+	(SourceDialog.__init__): New member __running_modally.
+	(SourceDialog.run): Assume the caller loads/saves the data.  Work with
+	the new signal handlers.
+	(SourceDialog.load): Rename from SourceDialog._load().
+	(SourceDialog.save): Rename from SourceDialog._save().
+	(SourceDialog.__window_destroy, SourceDialog.__window_response): New
+	signal handlers.
+	* src/main_window.py (MainWindow.__init__): New member source_dialog.
+	(MainWindow.run): Use self.__show_source_dialog()
+	(MainWindow.__show_source_dialog)
+	(MainWindow.__source_dialog_destroy)
+	(MainWindow.__source_dialog_apply): New methods.
+	(MainWindow.__change_event_source): Remove.
+	(MainWindow.__menu_change_event_source_activate): Show the event source
+	dialog non-modally.
+
+	* src/search_entry.py (SearchEntry): Add a class docstring.
+
+	* src/audit-viewer.glade: Move list_filter_label into list_filter_edit.
+
+	* src/search_entry.py (SearchEntry.__icon_released): New signal handler.
+
+	* src/list_tab.py (ListTab.__refresh_get_event_sequence)
+	(ListTab.__refresh_collect_events)
+	(ListTab.__refresh_update_store): Split from self.refresh().
+	(ListTab.__refresh_update_tree_view): Rename from
+	self.__update_tree_view().
+
+	* src/search_entry.py: New file.
+	* Makefile.am (pkgdata_PYTHON)
+	* po/POTFILES.in: Add src/search_entry.py.
+	* src/audit-viewer.glade: Add list_header_hbox.
+	* src/list_tab.py (ListTab._glade_widget_names): Add list_header_hbox.
+	(ListTab.__init__): Initialize self.text_filter and self.search_entry.
+	(ListTab.refresh, ListTab.__search_entry_update_search): Implement
+	"quick search".
+	(ListTab.__date_column_event_text): Split from
+	ListTab.__date_column_text.
+	(ListTab.__other_column_event_text): Split from
+	ListTab.__other_column_text.
+
+2008-06-17  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/list_properties.py (ListProperties.__init__): Handle the Delete
+	key in column list.
+	(ListProperties.__list_columns_key_press): New method.
+	* src/tab_properties.py (TabProperties.__init__): Handle the Delete key
+	in filter list.
+	(TabProperties.__filters_key_press): New method.
+
+2008-06-14  Piotr Drąg <piotrdrag@gmail.com> (via raven@fedoraproject.org)
+
+	* po/pl.po: Updated Polish translation
+
+2008-06-14  Fabian Affolter <fabian@bernewireless.net> (via
+	fab@fedoraproject.org)
+
+	* po/de.po: Updated German translation
+
+2008-06-14  Miloslav Trmač  <mitr@redhat.com>
+
+	* Makefile.am (pkgdata_PYTHON): Add src/format_versions.py
+	* src/format_versions.py: New file.
+	* src/main_window.py (_file_format_version): Remove.
+	(SavingState): New class.
+	(MainWindow.__handle_saved_config): Use format_versions.compare().
+	(MainWindow.__menu_save_layout_as_activate)
+	(MainWindow.__menu_tab_save_as_activate): Use SavingState for file
+	format versioning.
+	* src/filters.py (Filter.save_config)
+	* src/statistic.py (FieldStatistic.save_config)
+	* src/tab.py (Tab.save_config): New parameter state.  All users and
+	subclasses changed.  All subclasses modified to use super().
+	* src/lists.py (field_names): Add a few more items.
+	(integer_field_names): New variable.
+	* src/statistic.py (_SimpleFieldStatistic): Rename __ranges and
+	__no_value to _ranges and _no_value.
+	(_NumericFieldStatistic): New class.
+	(FieldStatistic.options): Use _NumericFieldStatistic for integer fields.
+
+2008-06-13  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/audit-viewer.glade: Add buttons for browsing events from the
+	event dialog.
+	* src/list_tab.py (ListPosition): New class.
+	(ListTab.__init__): New member positions.
+	(ListTab.event_details): Use ListPosition.
+	(ListTab.refresh): Refresh all positions.
+	* src/event_dialog.py (EventDialog._glade_widget_names): New widgets
+	event_dialog_prev_event and event_dialog_next_event.
+	(EventDialog.__load_event): Split from __init__.  Try to preserve user's
+	record selection.
+	(EventDialog.__record_selection_changed): Try to preserve user's field
+	selection.
+	(EventDialog.__init__): Support browsing through the events.
+	(EventDialog.__position_changed, EventDialog.__prev_event_clicked)
+	(EventDialog.__next_event_clicked): New methods.
+	(EventDialog.__close_clicked): Detach from the followed position.
+
+2008-06-08  Carlo Raudino <carloraudino@gmail.com> (via
+	carloraudino@fedoraproject.org)
+
+	* po/it.po: Complete Italian translation for audit-viewer.
+
+2008-06-07  Xavier Conde <xavi.conde@gmail.com> (via xconde@fedoraproject.org)
+
+	* po/ca.po: Added Catalan translation by xconde
+
+2008-06-05  Piotr Drąg <piotrdrag@gmail.com> (via raven@fedoraproject.org)
+
+	* po/pl.po: Fixed minor bug
+
+2008-06-04  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/list_tab.py (ListTab.__list_filter_edit_clicked): Update
+	for changed ListProperties constructor.
+
+2008-05-17  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/list_properties.py
+	* src/list_tab.py
+	* src/report_properties.py
+	* src/report_tab.py: Remove unnecessary import of DialogBase.
+
+	* src/dialog_base.py (DialogBase.__init__): New parameter parent.
+	All subclasses and users changed.
+
+2008-04-26  Fabian Affolter <fabian@bernewireless.net> (via
+	fab@fedoraproject.org)
+
+	* po/de.po: German translation finished...need some proofreading now
+
+2008-04-23  Piotr Drag <piotrdrag@gmail.com> (via raven@fedoraproject.org)
+
+	* po/pl.po: Initial Polish translation
+
+2008-04-23  Fabian Affolter <fabian@bernewireless.net> (via
+	fab@fedoraproject.org)
+
+	* po/de.po: Initial German translation
+
+2008-04-19  Miloslav Trmač  <mitr@redhat.com>
+
+	* po/Makevars (MSGID_BUGS_ADDRESS): Point to the fedorahosted.org bug
+	tracker.
+
+2008-04-18  Dimitris Glezos <dimitris@glezos.com> (via glezos@fedoraproject.org)
+
+	* po/el.po: Rough translation of Greek PO file (also testing Transifex
+	access)
+
+2008-04-18  Miloslav Trmač  <mitr@redhat.com>
+
+	* audit-viewer.desktop.in (Encoding): Remove an obsolete key.
+
+2008-04-15  Miloslav Trmač  <mitr@redhat.com>
+
+	* configure.ac: Version 0.2.
+	* NEWS: Update.
+
+	* Makefile.am (CLEANFILES, DISTCHECK_CONFIGURE_FLAGS): Fix
+	(make distcheck).
+
+2008-02-25  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/list_tab.py (ListTab.__init__)
+	* src/report_tab.py (ReportTab.__init__): New parameter will_refresh.
+	Use it to set self.__refresh_dont_read_events.
+	* src/list_tab.py (ListTab.refresh)
+	* src/report_tab.py (ReportTab.__refresh_1d, ReportTab.__refresh_2d):
+	Handle self.__refresh_dont_read_events.
+	* src/main_window.py (MainWindow.new_report_tab): Construct ReportTab
+	with will_refresh = True.
+	* src/tab.py (Tab.load_tab): Construct the tab with will_refresh = True.
+
+	* src/event_source.py (check_expression): New function.
+	* src/filters.py (_ComparisonFilter): Split from Filter.  All subclasses
+	updated.
+	(ExpressionFilter): New class.
+	* src/audit-viewer.glade: Add an "Expression" tab to list_properties
+	and report_properties.
+	* src/tab_properties.py (TabProperties.__tab_glade_widget_names): Add
+	'_filter_expression'.
+	(TabProperties.__init__): Initialize self.__filter_expression_buffer.
+	(TabProperties.__get_filter_expression): New method.
+	(TabProperties._load_tab, TabProperties._save_tab): Handle
+	ExpressionFilter.
+	(TabProperties._validate_get_failure): Verify the expression is
+	well-formed.
+
+	* src/list_tab.py (ListTab.__date_column_data_fn)
+	(ListTab.__other_column_data_fn): Rename columns to avoid a pychecker
+	warning.
+
+2008-02-06  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/list_tab.py (ListTab.__date_column_text)
+	(ListTab.__date_column_data_fn, ListTab.__other_column_text)
+	(ListTab.__other_column_data_fn): New functions.
+	(ListTab.__update_tree_view): Use TreeViewColumn.set_cell_data_func()
+	to lazily compute data of other than simple field columns.
+	(ListTab.refresh): Use event.id directly as a sort
+	key.  Only store simple field columns in self.store, let other fields
+	be computed lazily.
+	(ListTab.__export_csv.write_to_file): Update for columns not stored
+	in self.store.  Use a more CSV-friendly date format.
+	(ListTab.__export_html.write_to_file): Update for columns not stored in
+	self.store.
+
+	* src/list_tab.py (ListTab.refresh): Only ask for necessary fields, and
+	let the event source hash them.  Modify for speed.
+
+	* src/statistic.py (FieldStatistic.add_wanted_fields): New method.
+	Implementations added to all derived classes.
+	(_NaturalKeyStatistic.get_range): Use event's field hash.
+	* src/report_tab.py (ReportTab.__refresh_1d)
+	(ReportTab.__refresh_2d): Only ask for necessary fields.
+
+	* src/event_dialog.py (EventDialog.__init__)
+	* src/filters.py (TimestampFilter.ui_text)
+	* src/list_tab.py (ListTab.refresh)
+	* src/statistic.py (_OneDateRange.get_label)
+	(_OneDateRange.get_csv_label, _SecondIntervalRange.get_label)
+	(_SecondIntervalRange.get_csv_label)
+	(_MinuteIntervalRange.get_label)
+	(_MinuteIntervalRange.get_csv_label)
+	(_HourIntervalRange.get_label, _HourIntervalRange.get_csv_label)
+	(_DayIntervalRange.get_label, _DayIntervalRange.get_csv_label)
+	(_MonthRange.get_label, _MonthRange.get_csv_label): Use time.strftime()
+	directly instead of creating a datetime.datetime.
+
+	* src/event_source.py (StringEventSource): New class.
+	* src/event_dialog.py (EventDialog.__init__): Reparse the event to make
+	sure all fields are available and stored with their records.
+
+	* src/event_source.py (Event.__slots__, Record.__slots_): New
+	definitions.
+	(Event.__init__): New member "fields".
+	(EventSource.read_events): New parameters wanted_fields,
+	want_other_fields.  Document that event order is not preserved.
+	All implementations and users updated.
+	(_ParserEventSource): New helper class.
+	(EventSource._read_events_from_parser): Moved ...
+	(_ParserEventSource.read_events): ... here.  Support new
+	parameters, significantly modify for speed.
+	(FileEventSource._create_parser): Replace FileEventSource.read_events().
+	(ClientEventSource._create_parser): Replace
+	ClientEventSource.read_events().
+
+	* src/audit-viewer.in: Enable Python bytecode optimization.
+
+	* src/statistic.py (_DayIntervalRange): Fix timestamp computation.
+
+	* src/util.py (modal_error_dialog): New function.
+
+2008-02-03  Miloslav Trmač  <mitr@redhat.com>
+
+	* configure.ac (disable-update-mimedb): New option.
+	(RUN_UPDATE_MIME_DATABASE): New conditional.
+	* Makefile.am (mimedir, pkgmimedir): New definitions.
+	(pkgmime_DATA): New target.
+	(install-data-hook, uninstall-hook, @INTLTOOL_XML_RULE@): New rules.
+	(EXTRA_DIST): Add audit-viewer.xml.in.
+	* audit-viewer.desktop.in (Exec): Add %F.
+	(MimeType): New directive.
+	* audit-viewer.xml.in: New file.
+	* src/audit-viewer.in: Pass command-line arguments to main.py.
+	* src/main_window.py (MainWindow.__open_file): Split from
+	__menu_open_activate().
+	(MainWindow.run): Open files specified on the command line.
+	* src/main.py: Parse command-line arguments.  Allow disabling the
+	privileged backend.  Pass files to open to MainWindow.run.
+	* src/optparse_strings.py: New file.
+	* src/tab_properties.py (TabProperties.run): Fix typo.
+	* po/POTFILES.in: Add src/optparse_strings.py and audit-viewer.xml.in.
+
+	* src/main_window.py (_file_format_version): New variable.
+	(MainWindow.__handle_saved_config): Verify format version in
+	<audit_viewer_config>, if present.
+	(MainWindow.__menu_save_layout_as_activate)
+	(MainWindow.__menu_tab_save_as_activate): Wrap file contents in
+	<audit_viewer_config>.
+	* src/filters.py (Filter.save_config)
+	* src/statistic.py (FieldStatistic.save_config)
+	* src/tab.py (Tab.save_config): Add a reminder to
+	keep main_window._file_format_version up-to-date.
+
+2008-02-02  Miloslav Trmač  <mitr@redhat.com>
+
+	* src/main_window.py (MainWindow.get_save_path): New parameter
+	"suggestion".
+	(MainWindow.__menu_tab_save_as_activate)
+	* src/list_tab.py (ListTab.export)
+	* src/report_tab.py (ReportTab.export): Suggest tab name as default
+	file name.
+
+	* src/util.py (save_to_file): New function.
+	* src/list_tab.py (ListTab.__export_csv, ListTab.__export_html)
+	(ListTab.__export_log): Use util.save_to_file().
+	(ListTab.export): Catch OSError.
+	* src/main_window.py (MainWindow.__menu_save_layout_as_activate)
+	(MainWindow.__menu_tab_save_as_activate): Use util.save_to_file().
+
+	* src/report_tab.py (ReportTab.__export_csv)
+	(ReportTab.__export_html): Use util.save_to_file().
+	(ReportTab.export): Catch OSError.
+
+	* src/tab_properties.py (TabProperties.run): Return the dialog response
+	code.
+	* src/report_properties.py (ReportProperties._glade_widget_names): Add
+	'report_properties_notebook'.
+	(ReportProperties.__init__): New parameter show_grouping_tab.
+	* src/report_tab.py (ReportTab.properties): New parameter
+	show_grouping_tab.  Return the dialog response code.
+	* src/main_window.py (MainWindow.new_report_tab): Show a report
+	properties dialog, focused on the grouping tab, when asked to create a
+	new report.
+
+	* src/tab_properties.py (_DateSection.set_filter)
+	(TabProperties._load_tab): Return information about ignored filters
+	instead of printing it to stdout.
+	* src/list_properties.py (ListProperties.run)
+	* src/report_properties.py (RepoReportProperties.run): Move to the
+	superclass...
+	* src/tab_properties.py (TabProperties.run): ... here.  Ask the user
+	for confirmation before editing properties with some filters ignored.
+	* src/list_properties.py (ListProperties._load_tab)
+	* src/report_properties.py (ReportProperties._load_tab): Preserve errors
+	reported in the superclass.
+
+	* src/filters.py (Filter.__slots__, Filter.__eq__)
+	(Filter.__ne__, FielFieldFilter.__slots__, FieldFilter.__eq__)
+	(TimestampFilter.__slots__, TimestampFilter.__eq__)
+	(_DateWithChangesFilter.__slots__, NowFilter.__slots__)
+	(MinutesAgoFilter.__slots__, MinutesAgoFilter.__eq__)
+	(TodayFilter.__slots__, YesterdayFilter.__slots__)
+	(ThisWeekStartFilter.__slots__, ThisMonthStartFilter.__slots__)
+	(ThisYearStartFilter.__slots__): New definitions to support filter
+	comparision.
+	(TimestampFilter.ts_cmp): New method.
+	(add_filters): New function.
+	* src/report_tab.py (ReportTab.list_for_cell)
+	(ReportTab.list_for_row, ReportTab.list_for_column): Avoid duplicate
+	or redundant filters when creating reports.
+
+	* src/util.py (_week_first_day_ordinal, week_length, week_day)
+	(_read_week_data_from_glibc): New definitions.
+	* src/filters.py (ThisWeekStartFilter._change_fn)
+
+	* src/statistic.py (_WeekGroupingStatistic._range_key)
+	(_WeekGroupingStatistic._create_range): Use util.week_day and
+	util.week_length.

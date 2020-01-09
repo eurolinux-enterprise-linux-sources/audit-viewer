@@ -1,0 +1,1 @@
+<tab_configuration><tab tab_name="Host Events" type="event_list"><filters><filter field="hostname" op="!=" type="field" value="" /></filters><sort reverse="false" type="date" /><columns><column type="date" /><column field="hostname" type="field" /><column field="syscall" type="field" /><column field="auid" type="field" /></columns></tab></tab_configuration>

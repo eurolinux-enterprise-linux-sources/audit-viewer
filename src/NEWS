@@ -1,0 +1,75 @@
+Changes in version 0.5.1:
+* New audit-viewer.8 man page.
+* New or updated translations:
+  - Dutch by Geert Warrink <geert.warrink@onsnet.nu>
+  - Polish by Piotr Drąg <piotrdrag@gmail.com>
+  - Portuguese by Rui Gouveia <rui.gouveia@globaltek.pt>
+  - Russian by Yulia Poyarkova <yulia.poyarkova@redhat.com>
+
+Changes in version 0.5:
+* Don't crash if no system log files exist.
+* Add support for viewing a file and all related rotated files stored in the
+  same directory together (e.g. a copy of /var/log/audit).
+* New or updated translations:
+  - Catalan by Pere Argelich <bakidok@gmail.com>
+  - German by Cornelius Neckenig <tbull@fedoraproject.org>
+  - Spanish by Domingo Becker <domingobecker@gmail.com> and H. Daniel Cabrera
+    <h.daniel.cabrera@gmail.com>
+  - Italian by mario_santagiuliana <mario at marionline.it> and Francesco
+    Tombolini <tombo@adamantio.net>
+  - Japanese by Kiyoto Hashida <khashida@redhat.com> and Hyu_gabaru Ryu_ichi
+    <hyu_gabaru@yahoo.co.jp>
+  - Malay by Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>
+  - Polish by Piotr Drąg <piotrdrag@gmail.com>
+  - Brazilian Portuguese by Taylon Silmer <taylonsilva@gmail.com>
+  - Serbian by Miloš Komarčević <kmilos@gmail.com>
+  - Simplified Chinese by CHAI Zhenhua <watter1985@163.com> and sainrysec
+    <sainrysec@gmail.com>
+
+Changes in version 0.4:
+* Support viewing all rotated log files together
+* Change default "List" view to show newest events at the top
+* Make the audit-viewer window larger by default
+* Offer the 'node' field in combo boxes
+* New or updated translations:
+  German by Thomas Spura <tomspur@fedoraproject.org>
+  Malay by Sharuzzaman Ahmat Raslan <sharuzzaman@myrealbox.com>
+  Norwegian bokmal by Kjartan Maraas <kmaraas@gnome.org>
+  Polish by Piotr Drąg <piotrdrag@gmail.com>
+  Brazilian Portuguese by Taylon Silmer <taylonsilva@gmail.com> and Igor Pires
+  Soares <igor@projetofedora.org>
+  Serbian by Miloš Komarčević <kmilos@gmail.com> and Igor Miletic
+  <grejigl-gnomeprevod@yahoo.ca>
+
+Changes in version 0.3:
+* Make it possible to browse events using the "Event detail" dialog
+* Add "quick search" in event list results
+* Make it possible to open a tab in a new window
+* Support showing reports as bar charts
+* Order numeric fields (e.g. pid) by their value instead of lexicographically
+* Make properties dialogs non-modal
+* Show name of the tab in the title bar of its properties dialog
+* Support using the Delete keyboard key instead of the Delete dialog button
+* New translations:
+  ca Xavier Conde
+  de Fabian Affolter
+  el Dmitris Glezos
+  it Carlo Raudino
+  pl Piotr Drag
+
+Changes in version 0.2:
+* Add arbitrary ausearch-expression(5) support
+* Significant performance improvements.
+* One or more configuration files can be specified on the command line.
+* New command-line option --unprivileged.
+* Don't add duplicate or redundant filters when creating reports.
+* Warn the user if editing properties would drop some filters.
+* When asked to create a report, show a dialog for configuring it instead
+  of opening a default report.
+* Register *.audit-viewer into the freedesktop.org shared MIME database.
+* Use a locale-independent format for storing dates in CSV
+* Don't read event data if it won't be displayed
+* Recognize weeks using locale-specific rules.
+* Make sure data is never lost when saving files.
+* Use the tab name as suggested file name for data export.
+* Store configuration version number in *.audit-viewer.

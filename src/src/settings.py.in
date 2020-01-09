@@ -1,0 +1,8 @@
+# These values are for development only (assuming builddir == $srcdir/build).
+# See settings.py.in for the installed version of settings.py.
+configs_path = '@configsdir@'
+gettext_domain = '@PACKAGE@'
+glade_file_path = '@pkgdatadir@/audit-viewer.glade'
+localedir = '@localedir@'
+server_path = '@libexecdir@/audit-viewer-server'
+version = '@PACKAGE_VERSION@'

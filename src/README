@@ -1,0 +1,31 @@
+About
+=====
+audit-viewer is a GUI for viewing and summarizing events collected by the Linux
+audit subsystem.
+
+Installation
+============
+audit-viewer requires the following Python libraries:
+- audit Python bindings
+- gnome-python
+- gnome-python-desktop
+- pygtk
+- python-gtkextra
+- PyChart
+- sexy-python
+
+For system-wide installation, run ./configure with --localstatedir=/var .
+
+audit-viewer uses a separate program to access the system-wide audit data.  It
+is installed in $libexecdir/audit-viewer-server.  You need to use your
+distribution's tools (e. g. consolehelper in Fedora) to run this program with
+necessary privileges (usually as root).  Note that just making the program
+setuid is a not a good idea, it would allow any user to read the audit data.
+
+For Fedora or RHEL, you can use (make install-fedora) instead of (make install)
+to automate the above.
+
+Bugs
+====
+Please report bugs to <mitr@redhat.com>.  Bug reports with patches are
+especially welcome.
